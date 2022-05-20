@@ -1,0 +1,22 @@
+---
+permalink: um-manage/launch-considerations.html 
+sidebar: sidebar 
+keywords: considerations, for, accessing, santricity, system, manager, 
+summary: ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。 
+---
+= SANtricity System Managerにアクセスする際の考慮事項
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイを設定および管理する場合は、1つ以上のストレージアレイを選択し、起動オプションを使用してSANtricity System Managerを開きます。
+
+SANtricity System Managerは、E2800またはE5700コントローラに組み込みのアプリケーションで、イーサネット管理ポートを介してネットワークに接続されます。
+
+SANtricity System Managerには、E2800アレイまたはE5700アレイ向けのアレイベースのすべての機能が含まれています。
+
+SANtricity System Managerにアクセスするには、Webブラウザを使用してネットワーク管理クライアントにアウトオブバンド接続する必要があります。
+
+image::../media/single2800.gif[Single 2800]

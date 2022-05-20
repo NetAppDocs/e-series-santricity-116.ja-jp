@@ -1,0 +1,27 @@
+---
+permalink: sm-support/event-log.html 
+sidebar: sidebar 
+keywords: event, log, provide, historical, record, occur, storage, array, aid, technical, support, troubleshooting, leading, failures 
+summary: イベントログには、ストレージアレイで発生したイベントの履歴レコードが含まれ、障害に至ったイベントをトラブルシューティングする際のテクニカルサポートに役立ちます。 
+---
+= イベントログ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イベントログには、ストレージアレイで発生したイベントの履歴レコードが含まれ、障害に至ったイベントをトラブルシューティングする際のテクニカルサポートに役立ちます。
+
+イベントログは、ストレージアレイで発生したイベントを詳細に記録したものです。設定イベントおよびストレージアレイコンポーネントの障害が記録されます。イベントログは、Recovery Guruでストレージアレイイベントを追跡するための補助的な診断ツールとして使用できます。ストレージアレイ内のコンポーネント障害からのリカバリを試みるときは、必ず最初にRecovery Guruを参照してください。
+
+イベントログのイベントは、さまざまなステータスで分類されます。処理が必要なイベントのステータスは次のとおりです。
+
+* 重要
+* 警告
+
+
+情報提供目的で、すぐに対処する必要のないイベントは次のとおりです。
+
+* 情報
+

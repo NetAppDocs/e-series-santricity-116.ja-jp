@@ -1,0 +1,25 @@
+---
+permalink: sm-storage/how-does-my-selected-workload-impact-volume-creation.html 
+sidebar: sidebar 
+keywords: workload, storage, object, support, application, define, more, instance, system, manager, configure, contain, volumes, similar, underlying, characteristics, optimized, based, type, support, example, create, server, subsequently, underlying 
+summary: ワークロードは、アプリケーションをサポートするストレージオブジェクトです。アプリケーションごとに1つ以上のワークロードまたはインスタンスを定義できます。一部のアプリケーションについては、特性が似たボリュームで構成されるように System Manager によってワークロードが設定されます。これらのボリューム特性は、ワークロードがサポートするアプリケーションのタイプに基づいて最適化されます。たとえば、Microsoft SQL Serverアプリケーションをサポートするワークロードを作成し、そのワークロード用のボリュームを作成すると、Microsoft SQL Serverをサポートするようにボリューム特性が最適化されます。 
+---
+= 選択したワークロードはボリュームの作成にどのように影響しますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ワークロードは、アプリケーションをサポートするストレージオブジェクトです。アプリケーションごとに1つ以上のワークロードまたはインスタンスを定義できます。一部のアプリケーションについては、特性が似たボリュームで構成されるように System Manager によってワークロードが設定されます。これらのボリューム特性は、ワークロードがサポートするアプリケーションのタイプに基づいて最適化されます。たとえば、Microsoft SQL Serverアプリケーションをサポートするワークロードを作成し、そのワークロード用のボリュームを作成すると、Microsoft SQL Serverをサポートするようにボリューム特性が最適化されます。
+
+* *アプリケーション固有*。アプリケーション固有のワークロードを使用してボリュームを作成する場合、アプリケーションワークロードのI/Oとアプリケーションインスタンスからの他のトラフィックの競合が最小限になるように最適化されたボリューム構成が提示されることがあります。I/Oタイプ、セグメントサイズ、コントローラ所有権、読み取り/書き込みキャッシュなどのボリューム特性が自動的に推奨され、次のアプリケーションタイプ用に作成されるワークロードに合わせて最適化されます。
++
+** Microsoft®SQL Server™
+** Microsoft®Exchange Server™
+** ビデオ監視アプリケーション
+** VMware ESXi™（Virtual Machine File Systemでボリュームを使用する場合）では、推奨されるボリューム構成を確認し、* Add/Edit Volumes *ダイアログボックスを使用して、システム推奨のボリュームおよび特性を編集、追加、または削除できます。
+
+
+* *その他*（または特定のボリューム作成サポートのないアプリケーション）。特定のアプリケーションに関連付けられていないワークロードを作成する場合や、ストレージアレイで使用する予定のアプリケーションに対する最適化がSystem Managerに組み込まれていない場合は、その他のワークロードを選択し、ボリューム構成を手動で指定する必要があります。ボリューム構成は、*ボリュームの追加/編集*ダイアログボックスを使用して手動で指定する必要があります。
+

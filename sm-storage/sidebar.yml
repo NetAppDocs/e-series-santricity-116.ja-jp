@@ -1,0 +1,418 @@
+---
+section: sm-storage
+title: ストレージ
+entries:
+- title: プールとボリュームグループ
+  entries:
+  - title: 概念
+    entries:
+    - title: プールとボリュームグループの仕組み
+      url: "/sm-storage/how-pools-and-volume-groups-work.html"
+    - title: 容量に関する用語
+      url: "/sm-storage/capacity-terminology.html"
+    - title: リザーブ容量の仕組み
+      url: "/sm-storage/how-reserved-capacity-works.html"
+    - title: SSDキャッシュの仕組み
+      url: "/sm-storage/how-ssd-cache-works.html"
+    - title: SSDキャッシュの制限事項
+      url: "/sm-storage/ssd-cache-restrictions.html"
+    - title: プールとボリュームグループのどちらを使用するかを決定します
+      url: "/sm-storage/decide-to-use-a-pool-or-volume-group.html"
+    - title: プールとボリュームグループの機能比較
+      url: "/sm-storage/functional-comparison-of-pools-and-volume-groups.html"
+    - title: プールの自動作成と手動作成
+      url: "/sm-storage/automatic-versus-manual-pool-creation.html"
+  - title: 方法
+    entries:
+    - title: プールとボリュームグループを作成
+      entries:
+      - title: プールを自動的に作成する
+        url: "/sm-storage/create-pool-automatically.html"
+      - title: プールを手動で作成する
+        url: "/sm-storage/create-pool-manually.html"
+      - title: ボリュームグループを作成します
+        url: "/sm-storage/create-volume-group.html"
+      - title: SSDキャッシュを作成する
+        url: "/sm-storage/create-ssd-cache.html"
+      - title: プールまたはボリュームグループに容量を追加します
+        url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
+    - title: プール、ボリュームグループ、SSDキャッシュの管理
+      entries:
+      - title: プールの設定を変更します
+        url: "/sm-storage/change-configuration-settings-for-a-pool.html"
+      - title: SSDキャッシュの設定を変更する
+        url: "/sm-storage/change-ssd-cache-settings.html"
+      - title: ボリュームグループの設定を変更します
+        url: "/sm-storage/change-configuration-settings-for-a-volume-group.html"
+      - title: SSDキャッシュの統計を表示します
+        url: "/sm-storage/view-ssd-cache-statistics.html"
+      - title: ボリュームの冗長性をチェックします
+        url: "/sm-storage/check-volume-redundancy.html"
+      - title: プールまたはボリュームグループを削除します
+        url: "/sm-storage/delete-pool-or-volume-group.html"
+      - title: ボリュームグループの空き容量を統合します
+        url: "/sm-storage/consolidate-volume-group-free-capacity.html"
+      - title: ボリュームグループをエクスポート/インポートする
+        url: "/sm-storage/export-import-volume-groups.html"
+    - title: ドライブを管理します
+      entries:
+      - title: プール、ボリュームグループ、またはSSDキャッシュでのロケーターライトの点灯
+        url: "/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html"
+      - title: プールまたはSSDキャッシュから容量を削除する
+        url: "/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html"
+      - title: プールまたはボリュームグループのセキュリティを有効にします
+        url: "/sm-storage/enable-security.html"
+      - title: ホットスペアを割り当てます
+        url: "/sm-storage/assign-hot-spares-storage.html"
+      - title: ドライブを論理的に交換します
+        url: "/sm-storage/replace-drive-logically-storage.html"
+    - title: リザーブ容量を管理します
+      entries:
+      - title: リザーブ容量を増やします
+        url: "/sm-storage/increase-reserved-capacity.html"
+      - title: リザーブ容量を削減します
+        url: "/sm-storage/decrease-reserved-capacity.html"
+      - title: Snapshotグループのリザーブ容量の設定を変更します
+        url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html"
+      - title: Snapshotボリュームのリザーブ容量の設定を変更します
+        url: "/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html"
+      - title: 整合性グループのメンバーボリュームのリザーブ容量設定を変更します
+        url: "/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html"
+      - title: ミラーペアボリュームのリザーブ容量の設定を変更する
+        url: "/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html"
+      - title: 保留中のSnapshotイメージをキャンセルします
+        url: "/sm-storage/cancel-pending-snapshot-image.html"
+      - title: Snapshotグループを削除します
+        url: "/sm-storage/delete-snapshot-group.html"
+  - title: よくある質問です
+    entries:
+    - title: ホットスペアドライブとは何ですか？
+      url: "/sm-storage/what-is-a-hot-spare-drive.html"
+    - title: ボリュームグループとは何ですか？
+      url: "/sm-storage/what-is-a-volume-group.html"
+    - title: プールとは何ですか？
+      url: "/sm-storage/what-is-a-pool.html"
+    - title: リザーブ容量とは何ですか？
+      url: "/sm-storage/what-is-reserved-capacity.html"
+    - title: FDE / FIPSセキュリティとは何ですか？
+      url: "/sm-storage/what-is-fde-fips-security.html"
+    - title: 冗長性チェックとは何ですか？
+      url: "/sm-storage/what-is-redundancy-check.html"
+    - title: プールとボリュームグループの違いは何ですか？
+      url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
+    - title: プールを手動で設定するのはどのような場合ですか？
+      url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
+    - title: 容量アラートが重要なのはなぜですか？
+      url: "/sm-storage/why-are-capacity-alerts-important.html"
+    - title: 予約済み容量を増やせない場合、どのような理由が考えられますか？
+      url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
+    - title: プールから削除できるドライブの数に制限はありますか。
+      url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
+    - title: ドライブでサポートされているメディアタイプを教えてください。
+      url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
+    - title: 一部のドライブが表示されないのはなぜですか？
+      url: "/sm-storage/why-are-some-drives-not-showing-up.html"
+    - title: シェルフ/ドロワー損失の保護を維持するにはどうすればよいですか？
+      url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
+    - title: アプリケーションに最適なRAIDレベルはどれですか？
+      url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
+    - title: Data Assuranceとは何ですか？
+      url: "/sm-storage/what-is-data-assurance.html"
+    - title: セキュリティ対応（ドライブセキュリティ）とは何ですか？
+      url: "/sm-storage/what-is-security-capable-drive-security.html"
+    - title: リザーブ容量を増やすときは、どのような点に注意する必要がありますか？
+      url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
+    - title: 削減する量を選択できないのはなぜですか？
+      url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
+    - title: メンバーボリュームごとにリザーブ容量が必要なのはなぜですか？
+      url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
+    - title: SSDキャッシュのすべての統計情報を表示するにはどうすればよいですか？また、何が
+      url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
+    - title: プールの最適化容量とは何ですか？
+      url: "/sm-storage/what-is-optimization-capacity-pools.html"
+    - title: ボリュームグループの最適化容量とは何ですか？
+      url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
+- title: 個のボリューム
+  entries:
+  - title: 概念
+    entries:
+    - title: ストレージアレイ内のボリューム
+      url: "/sm-storage/volumes-in-the-storage-array.html"
+    - title: ボリュームに関する用語
+      url: "/sm-storage/volume-terminology.html"
+    - title: ボリュームを作成するためのワークフロー
+      url: "/sm-storage/workflow-for-creating-volumes.html"
+    - title: ボリュームのデータ整合性と データ セキュリティ
+      url: "/sm-storage/data-integrity-and-data-security-for-volumes.html"
+    - title: SSDキャッシュとボリューム
+      url: "/sm-storage/ssd-cache-and-volumes.html"
+    - title: アプリケーション固有のワークロード
+      url: "/sm-storage/application-specific-workloads.html"
+    - title: ボリュームで実行できる操作
+      url: "/sm-storage/actions-you-can-perform-on-volumes.html"
+    - title: ボリュームの容量
+      url: "/sm-storage/capacity-for-volumes.html"
+    - title: シンボリュームの監視
+      url: "/sm-storage/thin-volume-monitoring.html"
+    - title: シックボリュームとシンボリュームの比較
+      url: "/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html"
+    - title: ボリュームコピー機能
+      url: "/sm-storage/copy-volume-function.html"
+    - title: ボリュームコピー処理のタイプ
+      url: "/sm-storage/types-of-copy-volume-operations.html"
+  - title: 方法
+    entries:
+    - title: ストレージを作成します
+      entries:
+      - title: ワークロードの作成
+        url: "/sm-storage/create-workloads.html"
+      - title: ボリュームを作成します
+        url: "/sm-storage/create-volumes-storage.html"
+    - title: ボリュームを管理します
+      entries:
+      - title: ボリュームの容量を拡張します
+        url: "/sm-storage/increase-capacity-of-a-volume.html"
+      - title: ボリュームの設定を変更します
+        url: "/sm-storage/change-settings-for-a-volume.html"
+      - title: ボリュームを初期化
+        url: "/sm-storage/initialize-volumes.html"
+      - title: ボリュームを再配置する
+        url: "/sm-storage/redistribute-volumes.html"
+      - title: ボリュームのコントローラ所有権を変更する
+        url: "/sm-storage/change-controller-ownership-of-a-volume.html"
+      - title: ボリュームのキャッシュ設定を変更します
+        url: "/sm-storage/change-cache-settings.html"
+      - title: ボリュームのメディアスキャン設定を変更します
+        url: "/sm-storage/change-media-scan-settings.html"
+      - title: ボリュームを削除します
+        url: "/sm-storage/delete-volume.html"
+    - title: アプリケーションとワークロードの管理
+      entries:
+      - title: ワークロードに追加
+        url: "/sm-storage/add-to-workload.html"
+      - title: ワークロードの設定を変更する
+        url: "/sm-storage/change-workload-settings.html"
+    - title: コピーサービスを使用する
+      entries:
+      - title: ボリュームをコピーする
+        url: "/sm-storage/copy-volume.html"
+      - title: ボリュームコピー処理に対して実行します
+        url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
+    - title: シンボリュームの割り当て容量の制限を変更します
+      url: "/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html"
+  - title: よくある質問です
+    entries:
+    - title: ボリュームとは何ですか？
+      url: "/sm-storage/what-is-a-volume.html"
+    - title: ボリュームグループにボリュームの作成に十分な空き容量があるにもかかわらず、容量の過剰割り当てエラーが表示されるのはなぜですか？
+      url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
+    - title: 選択したワークロードはボリュームの作成にどのように影響しますか？
+      url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
+    - title: ボリュームがワークロードに関連付けられていないのはなぜですか？
+      url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
+    - title: 選択したワークロードを削除できないのはなぜですか？
+      url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
+    - title: アプリケーション固有のワークロードはストレージアレイの管理にどのように役立ちますか？
+      url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
+    - title: この情報はストレージの作成にどのように役立ちますか？
+      url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
+    - title: 拡張後の容量を認識させるにはどうすればよいですか？
+      url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
+    - title: プールやボリュームグループが一部表示されないのはなぜですか？
+      url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
+    - title: セグメントサイズとは何ですか？
+      url: "/sm-storage/what-is-segment-sizing.html"
+    - title: 優先コントローラ所有権とは何ですか？
+      url: "/sm-storage/what-is-preferred-controller-ownership.html"
+    - title: 自動ロードバランシングとは何ですか？
+      url: "/sm-storage/what-is-automatic-load-balancing.html"
+- title: ホスト
+  entries:
+  - title: 概念
+    entries:
+    - title: ホストの用語
+      url: "/sm-storage/host-terminology.html"
+    - title: ホストの作成とボリュームの割り当てのワークフロー
+      url: "/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html"
+    - title: ホストの自動作成と手動作成
+      url: "/sm-storage/automatic-versus-manual-host-creation.html"
+    - title: ホストおよびホストクラスタへのボリュームの割り当て方法
+      url: "/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html"
+    - title: アクセスボリューム
+      url: "/sm-storage/access-volumes.html"
+    - title: LUN の最大数
+      url: "/sm-storage/maximum-number-of-luns.html"
+  - title: 方法
+    entries:
+    - title: ホストアクセスを設定
+      entries:
+      - title: ホストを自動で作成する
+        url: "/sm-storage/create-host-automatically.html"
+      - title: ホストを手動で作成する
+        url: "/sm-storage/create-host-manually.html"
+      - title: ホストクラスタを作成する
+        url: "/sm-storage/create-host-cluster.html"
+      - title: ボリュームを作成します
+        url: "/sm-storage/create-volumes-hosts.html"
+      - title: ボリュームを割り当てます
+        url: "/sm-storage/assign-volumes.html"
+    - title: ホストとホストクラスタを管理
+      entries:
+      - title: ホストの設定を変更します
+        url: "/sm-storage/change-the-settings-for-a-host.html"
+      - title: ホストクラスタの設定を変更します
+        url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
+      - title: ボリュームの割り当てを解除する
+        url: "/sm-storage/unassign-volumes.html"
+      - title: ホストのホストポート識別子を変更する
+        url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+      - title: ホストまたはホストクラスタを削除
+        url: "/sm-storage/delete-host-or-host-cluster.html"
+  - title: よくある質問です
+    entries:
+    - title: ホストおよびホストクラスタとは何ですか？
+      url: "/sm-storage/what-are-hosts-and-host-clusters.html"
+    - title: ホストクラスタを作成する必要があるのはどのような場合ですか？
+      url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
+    - title: 正しいホストオペレーティングシステムタイプを特定するにはどうすればよいですか？
+      url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
+    - title: HBAおよびアダプタポートとは何ですか？
+      url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
+    - title: ホストポートをホストに一致させるにはどうすればよいですか？
+      url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
+    - title: CHAPシークレットを作成するにはどうすればよいですか？
+      url: "/sm-storage/how-do-i-create-chap-secrets.html"
+    - title: デフォルトクラスタとは何ですか？
+      url: "/sm-storage/what-is-the-default-cluster.html"
+- title: パフォーマンス
+  entries:
+  - title: 概念
+    entries:
+    - title: パフォーマンスの概要
+      url: "/sm-storage/performance-overview.html"
+    - title: パフォーマンスの用語
+      url: "/sm-storage/performance-terminology.html"
+  - title: 方法
+    entries:
+    - title: グラフィカルなパフォーマンスデータを表示します
+      url: "/sm-storage/view-performance-data-graphical.html"
+    - title: 表形式のパフォーマンスデータを表示および保存する
+      url: "/sm-storage/view-and-save-performance-data-tabular.html"
+    - title: パフォーマンスデータを解釈する
+      url: "/sm-storage/interpret-performance-data.html"
+  - title: よくある質問です
+    entries:
+    - title: 個々のボリュームのパフォーマンス統計と合計値との関係はどうなっていますか？
+      url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
+    - title: グラフや表にデータがゼロと表示されるのはなぜですか？
+      url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
+    - title: レイテンシグラフにはどのような情報が表示されますか？
+      url: "/sm-storage/what-does-the-latency-graph-show.html"
+    - title: IOPSグラフには何が表示されますか？
+      url: "/sm-storage/what-does-the-iops-graph-show.html"
+    - title: MiB/秒グラフには何が表示されますか。
+      url: "/sm-storage/what-does-the-mibs-graph-show.html"
+    - title: CPUのグラフは何を示していますか。
+      url: "/sm-storage/what-does-the-cpu-graph-show.html"
+    - title: ヘッドルームグラフには何が表示されますか？
+      url: "/sm-storage/what-does-the-headroom-graph-show.html"
+- title: Snapshot
+  entries:
+  - title: 概念
+    entries:
+    - title: スナップショットストレージの概要
+      url: "/sm-storage/overview-of-snapshot-storage.html"
+    - title: Snapshotの要件とガイドライン
+      url: "/sm-storage/requirements-and-guidelines-for-snapshots.html"
+    - title: ベースボリューム、リザーブ容量、およびSnapshotグループ
+      url: "/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html"
+    - title: SnapshotスケジュールとSnapshot整合性グループ
+      url: "/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html"
+    - title: Snapshotボリューム
+      url: "/sm-storage/snapshot-volumes.html"
+    - title: Snapshotのロールバック
+      url: "/sm-storage/snapshot-rollback.html"
+    - title: Snapshotに関する用語
+      url: "/sm-storage/snapshot-terminology.html"
+    - title: SnapshotイメージとSnapshotボリュームを作成するためのワークフロー
+      url: "/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html"
+  - title: 方法
+    entries:
+    - title: SnapshotおよびSnapshotオブジェクトを作成します
+      entries:
+      - title: Snapshotイメージを作成する
+        url: "/sm-storage/create-snapshot-image.html"
+      - title: Snapshotイメージのスケジュールを設定
+        url: "/sm-storage/schedule-snapshot-images.html"
+      - title: Snapshot整合性グループを作成します
+        url: "/sm-storage/create-snapshot-consistency-group.html"
+      - title: Snapshotボリュームを作成します
+        url: "/sm-storage/create-snapshot-volume.html"
+    - title: Snapshotスケジュールを管理します
+      entries:
+      - title: Snapshotスケジュールの設定を変更します
+        url: "/sm-storage/change-the-settings-for-a-snapshot-schedule.html"
+      - title: Snapshotスケジュールのアクティブ化と一時停止
+        url: "/sm-storage/activate-or-suspend-snapshot-schedule.html"
+      - title: Snapshotスケジュールを削除します
+        url: "/sm-storage/delete-snapshot-schedule.html"
+    - title: Snapshotイメージを管理します
+      entries:
+      - title: Snapshotイメージの設定を表示します
+        url: "/sm-storage/view-snapshot-image-settings.html"
+      - title: ベースボリュームのSnapshotイメージのロールバックを開始する
+        url: "/sm-storage/start-snapshot-image-rollback-for-base-volume.html"
+      - title: Snapshot整合性グループのメンバーボリュームのSnapshotイメージのロールバックを開始します
+        url: "/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html"
+      - title: Snapshotイメージのロールバックを再開します
+        url: "/sm-storage/resume-snapshot-image-rollback.html"
+      - title: Snapshotイメージのロールバックをキャンセルします
+        url: "/sm-storage/cancel-snapshot-image-rollback.html"
+      - title: Snapshotイメージを削除します
+        url: "/sm-storage/delete-snapshot-image.html"
+    - title: Snapshot整合性グループを管理します
+      entries:
+      - title: Snapshot整合性グループにメンバーボリュームを追加します
+        url: "/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html"
+      - title: Snapshot整合性グループからメンバーボリュームを削除します
+        url: "/sm-storage/remove-member-volumes-from-a-consistency-group.html"
+      - title: Snapshot整合性グループの設定を変更します
+        url: "/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html"
+      - title: Snapshot整合性グループを削除します
+        url: "/sm-storage/delete-snapshot-consistency-group.html"
+    - title: Snapshotボリュームを管理します
+      entries:
+      - title: Snapshotボリュームを読み取り/書き込みモードに変換します
+        url: "/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html"
+      - title: Snapshotボリュームのボリューム設定を変更します
+        url: "/sm-storage/change-the-settings-for-a-snapshot-volume.html"
+      - title: Snapshotボリュームをコピーします
+        url: "/sm-storage/copy-snapshot-volume.html"
+      - title: Snapshotボリュームを再作成します
+        url: "/sm-storage/re-create-snapshot-volume.html"
+      - title: Snapshotボリュームを無効にします
+        url: "/sm-storage/disable-snapshot-volume.html"
+      - title: Snapshotボリュームを削除します
+        url: "/sm-storage/delete-snapshot-volume.html"
+  - title: よくある質問です
+    entries:
+    - title: ボリューム、ホスト、またはホストクラスタが一部表示されないのはなぜですか？
+      url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
+    - title: Snapshotイメージとは何ですか？
+      url: "/sm-storage/what-is-a-snapshot-image.html"
+    - title: Snapshotイメージを使用するのはなぜですか？
+      url: "/sm-storage/why-use-snapshot-images.html"
+    - title: Snapshotにはどのような種類のボリュームを使用できますか？
+      url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
+    - title: Snapshot整合性グループを作成するのはどのような場合ですか？
+      url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
+    - title: Snapshotボリュームとは何ですか？また、Snapshotボリュームにリザーブ容量が必要になるのはいつですか？
+      url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
+    - title: Snapshotグループとは何ですか？
+      url: "/sm-storage/what-is-a-snapshot-group.html"
+    - title: Snapshotボリュームを無効にするのはどのような場合ですか？
+      url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
+    - title: 無効状態とは何ですか？
+      url: "/sm-storage/what-is-the-disabled-state.html"
+    - title: Snapshotスケジュールを一時停止するのはどのような場合ですか？
+      url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"

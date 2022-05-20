@@ -1,0 +1,192 @@
+---
+permalink: sm-support/ethernet-tcp-ip-statistics.html 
+sidebar: sidebar 
+keywords: ethernet, statistics, definition, statistics, transmitted, byte, expired 
+summary: イーサネットTCP / IP統計 
+---
+= イーサネットTCP / IP統計
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+イーサネットTCP/IP統計を選択すると、次の表のTCP統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
+
+[cols="2*"]
+|===
+| 統計 | 定義（ Definition ） 
+
+
+ a| 
+TXS
+ a| 
+送信セグメント数
+
+
+
+ a| 
+TXB
+ a| 
+送信バイト数
+
+
+
+ a| 
+RTxTE
+ a| 
+再送信タイマー期限切れ数
+
+
+
+ a| 
+TxDACK
+ a| 
+送信遅延ACK数
+
+
+
+ a| 
+TxACK
+ a| 
+送信ACK数
+
+
+
+ a| 
+Rxs
+ a| 
+受信セグメント数
+
+
+
+ a| 
+RxB
+ a| 
+受信バイト数
+
+
+
+ a| 
+RxDACK
+ a| 
+受信した重複ACK数
+
+
+
+ a| 
+RxACK
+ a| 
+受信したACK数
+
+
+
+ a| 
+RxSEC
+ a| 
+受信したセグメントエラー数
+
+
+
+ a| 
+RxSOOC
+ a| 
+受信した順不同セグメント数
+
+
+
+ a| 
+RxWP
+ a| 
+受信ウィンドウプローブ数
+
+
+
+ a| 
+RxWU
+ a| 
+受信ウィンドウ更新数
+
+|===
+イーサネットTCP/IP統計を選択すると、次の表のIP統計が表示されます。
+
+[cols="2*"]
+|===
+| 統計 | 定義（ Definition ） 
+
+
+ a| 
+TXP
+ a| 
+送信パケット数
+
+
+
+ a| 
+TXB
+ a| 
+送信バイト数
+
+
+
+ a| 
+TxF
+ a| 
+送信フラグメント数
+
+
+
+ a| 
+RXP
+ a| 
+受信パケット数。IPv4受信パケット数を表示するには、* Show IPv4 *を選択します。[*Show IPv6*]を選択して、IPv6パケット受信数を表示します。
+
+
+
+ a| 
+RxB
+ a| 
+受信バイト数
+
+
+
+ a| 
+RxF
+ a| 
+受信フラグメント数
+
+
+
+ a| 
+RxPE
+ a| 
+受信パケットエラー数
+
+
+
+ a| 
+DR
+ a| 
+データグラム再構築数
+
+
+
+ a| 
+DRE-OLFC
+ a| 
+データグラム再構築エラー、重複フラグメント数
+
+
+
+ a| 
+DRE-OOFC
+ a| 
+データグラム再構築エラー、順不同フラグメント数
+
+
+
+ a| 
+DRE-TOC
+ a| 
+データグラム再構築エラー、タイムアウト数
+
+|===

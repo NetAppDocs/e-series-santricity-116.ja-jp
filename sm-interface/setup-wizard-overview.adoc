@@ -1,0 +1,27 @@
+---
+permalink: sm-interface/setup-wizard-overview.html 
+sidebar: sidebar 
+keywords: setup wizard, configure, storage, array, hardware, host, application workload, alert, autosupport 
+summary: セットアップウィザードを使用して、ハードウェア、ホスト、アプリケーション、ワークロード、 プール、アラート、およびAutoSupport 。 
+---
+= セットアップウィザードの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+セットアップウィザードを使用して、ハードウェア、ホスト、アプリケーション、ワークロード、 プール、アラート、およびAutoSupport 。
+
+System Managerを初めて開いたときは、セットアップウィザードが起動します。
+
+セットアップウィザードでは、画面の指示に従って、ストレージアレイの名前の設定、ホストの設定、アプリケーションの選択、ストレージのプールの作成など、基本的な設定タスクを実行します。
+
+ウィザードをキャンセルした場合、手動で再起動することはできません。
+
+ウィザードは、 System Manager を開くかブラウザを更新したときに、次の条件の少なくとも 1 つに該当していれば自動的に再度起動されます。
+
+* プールとボリュームグループが検出されていません。
+* ワークロードが検出されていません。
+* 通知が設定されていません。
+

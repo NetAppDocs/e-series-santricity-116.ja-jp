@@ -1,0 +1,61 @@
+---
+permalink: um-admin/supported-browsers-unified.html 
+sidebar: sidebar 
+keywords: santricity, unified, manager, access, several, types, browsers 
+summary: SANtricity Unified Managerには、いくつかの種類のブラウザからアクセスできます。 
+---
+= サポートされているブラウザ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity Unified Managerには、いくつかの種類のブラウザからアクセスできます。
+
+サポートされるブラウザとバージョンを次に示します。
+
+[cols="2*"]
+|===
+| ブラウザ | 最小バージョン 
+
+
+ a| 
+Google Chrome
+ a| 
+47
+
+
+
+ a| 
+Microsoft Internet Explorer の略
+ a| 
+11.
+
+
+
+ a| 
+Microsoft Edge の場合
+ a| 
+EdgeHTML 12
+
+
+
+ a| 
+Mozilla Firefox
+ a| 
+31.
+
+
+
+ a| 
+Safari
+ a| 
+9.
+
+|===
+[NOTE]
+====
+Web Services Proxyをインストールしてブラウザから使用できるようにしておく必要があります。
+
+====

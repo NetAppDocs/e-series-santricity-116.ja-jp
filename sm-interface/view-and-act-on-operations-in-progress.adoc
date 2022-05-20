@@ -1,0 +1,37 @@
+---
+permalink: sm-interface/view-and-act-on-operations-in-progress.html 
+sidebar: sidebar 
+keywords: view, action, long-run, operations, progress 
+summary: 長時間実行されている処理を表示して実行するには、Operations in Progressページを使用します。 
+---
+= 実行中の処理を表示して対処します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+長時間実行されている処理を表示して実行するには、Operations in Progressページを使用します。
+
+[Operations in Progress]ページにリストされている各オペレーションについて、完了した割合と処理が完了するまでの推定時間が表示されます。場合によっては、処理を停止したり、処理の優先度を変更したりできます。完了したボリュームコピー処理をリストから消去することもできます。
+
+.手順
+. [*ホーム（* Home）]ページで、[*進行中の操作を表示（* Show operations in progress）]を選択します
++
+[* Operations in Progress]ページが表示されます。
+
+. 必要に応じて、[アクション*（* Actions *）]列のリンクを使用して、オペレーションの優先度を停止または変更します。
++
+[CAUTION]
+====
+特に、処理を停止する場合は、ダイアログボックスに表示されているすべての警告テキストをお読みください。
+
+====
++
+ボリュームコピー処理を停止するか、優先度を変更できます。
+
+. ボリュームコピー処理が完了したら、「*クリア*」を選択してリストから削除できます。
++
+「ホーム」ページの上部に、操作が完了すると、情報メッセージと黄色のレンチアイコンが表示されます。このメッセージには、操作を*進行中*ページからクリアできるリンクが含まれています。
+
+

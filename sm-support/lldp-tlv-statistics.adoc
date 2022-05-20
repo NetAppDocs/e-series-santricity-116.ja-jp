@@ -1,0 +1,61 @@
+---
+permalink: sm-support/lldp-tlv-statistics.html 
+sidebar: sidebar 
+keywords: statistics, select, link, discovery, protocol, length 
+summary: LLDP TLV統計 
+---
+= LLDP TLV統計
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+Link Layer Discovery Protocol（LLDP）Type Length Value（TLV）Statisticsを選択すると、次の統計が表示されます。ローカルデバイス用とリモートデバイス用の2セットの統計が表示されます。ローカルデバイスはコントローラを指します。リモートデバイスは、コントローラが接続されているピアデバイス（通常はスイッチ）を指します。
+
+[cols="2*"]
+|===
+| 統計 | 定義（ Definition ） 
+
+
+ a| 
+iSCSIホストポート
+ a| 
+検出されたホストポートの場所を、「コントローラ番号、ポート番号」の形式で示します。
+
+
+
+ a| 
+シャーシ ID
+ a| 
+シャーシIDを示します。
+
+
+
+ a| 
+シャーシIDサブタイプ
+ a| 
+シャーシIDのサブタイプを示します。
+
+
+
+ a| 
+ポート ID
+ a| 
+ポートIDを示します。
+
+
+
+ a| 
+ポートIDサブタイプ
+ a| 
+ポートIDのサブタイプを示します。
+
+
+
+ a| 
+Time to Liveの略
+ a| 
+受信側LLDPエージェントが情報を有効とみなす秒数を示します。
+
+|===
+その他のLLDP TLV統計は、状態キャプチャファイルで確認できます。

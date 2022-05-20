@@ -1,0 +1,140 @@
+---
+section: sm-hardware
+title: ハードウェア
+entries:
+- title: シェルフ
+  entries:
+  - title: 概念
+    entries:
+    - title: ハードウェアページの概要
+      url: "/sm-hardware/hardware-page-overview.html"
+    - title: ハードウェアの用語
+      url: "/sm-hardware/hardware-terminology.html"
+  - title: 方法
+    entries:
+    - title: ハードウェアコンポーネントを表示します
+      url: "/sm-hardware/view-hardware-components.html"
+    - title: 構成部品のステータスを表示または非表示にします
+      url: "/sm-hardware/show-or-hide-component-status.html"
+    - title: 正面図と背面図を切り替えます
+      url: "/sm-hardware/switch-between-front-and-back-views.html"
+    - title: シェルフの表示順序を変更します
+      url: "/sm-hardware/change-view-order-of-shelves.html"
+    - title: シェルフのロケーターライトを点灯します
+      url: "/sm-hardware/turn-on-shelf-locator-light.html"
+    - title: シェルフIDを変更します
+      url: "/sm-hardware/change-shelf-ids.html"
+    - title: シェルフコンポーネントのステータスと設定を表示します
+      url: "/sm-hardware/view-shelf-component-status-and-settings.html"
+    - title: バッテリ学習サイクルを更新します
+      url: "/sm-hardware/update-battery-learn-cycles.html"
+  - title: よくある質問です
+    entries:
+    - title: シェルフ損失の保護およびドロワー損失の保護とは何ですか？
+      url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
+    - title: バッテリ学習サイクルとは何ですか？
+      url: "/sm-hardware/what-are-battery-learn-cycles.html"
+- title: コントローラ
+  entries:
+  - title: 概念
+    entries:
+    - title: コントローラの用語
+      url: "/sm-hardware/controller-terminology.html"
+    - title: コントローラの状態
+      url: "/sm-hardware/controller-states.html"
+    - title: IPアドレスの割り当てに関する考慮事項
+      url: "/sm-hardware/considerations-for-assigning-ip-addresses.html"
+  - title: 方法
+    entries:
+    - title: 管理ポートを設定します
+      url: "/sm-hardware/configure-management-ports.html"
+    - title: iSCSIポートを設定
+      url: "/sm-hardware/configure-iscsi-ports-hardware.html"
+    - title: iSER over InfiniBandポートを設定します
+      url: "/sm-hardware/configure-iser-over-infiniband-ports-hardware.html"
+    - title: NVMe over InfiniBandポートを設定する
+      url: "/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html"
+    - title: NVMe over RoCEポートを設定します
+      url: "/sm-hardware/configure-nvme-over-roce-ports-hardware.html"
+    - title: NTPサーバアドレスを設定する
+      url: "/sm-hardware/configure-ntp-server-addresses.html"
+    - title: DNSサーバアドレスを設定する
+      url: "/sm-hardware/configure-dns-server-addresses.html"
+    - title: コントローラの設定を表示します
+      url: "/sm-hardware/view-controller-settings.html"
+    - title: リモートログインを許可します
+      url: "/sm-hardware/allow-remote-login.html"
+    - title: コントローラをオンラインにします
+      url: "/sm-hardware/place-controller-online.html"
+    - title: コントローラをオフラインにします
+      url: "/sm-hardware/place-controller-offline.html"
+    - title: コントローラをサービスモードにします
+      url: "/sm-hardware/place-controller-in-service-mode.html"
+    - title: コントローラをリセット（リブート）します
+      url: "/sm-hardware/reset-reboot-controller.html"
+  - title: よくある質問です
+    entries:
+    - title: 自動ネゴシエーションとは何ですか？
+      url: "/sm-hardware/what-is-auto-negotiation.html"
+    - title: IPv6ステートレスアドレス自動設定とは何ですか。
+      url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
+    - title: DHCPと手動設定のどちらを選択しますか。
+      url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
+    - title: DHCPサーバとは何ですか。
+      url: "/sm-hardware/what-is-a-dhcp-server.html"
+    - title: DHCPサーバを設定するにはどうすればよいですか。
+      url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
+    - title: コントローラのネットワーク設定を変更する必要があるのはなぜですか？
+      url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
+    - title: ネットワーク設定はどこで入手できますか。
+      url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
+    - title: ICMP PING応答とは何ですか？
+      url: "/sm-hardware/what-are-icmp-ping-responses.html"
+    - title: DHCPサーバからポート設定またはiSNSサーバを更新する必要があるのはいつですか？
+      url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
+    - title: 管理ポートを設定したあとに何をすればよいですか？
+      url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
+- title: ドライブ
+  entries:
+  - title: 概念
+    entries:
+    - title: ドライブの用語
+      url: "/sm-hardware/drive-terminology.html"
+    - title: ドライブの状態
+      url: "/sm-hardware/drive-states.html"
+    - title: ソリッドステートディスク（SSD）
+      url: "/sm-hardware/solid-state-disks-ssds.html"
+    - title: ホットスペアドライブ
+      url: "/sm-hardware/hot-spare-drives.html"
+  - title: 方法
+    entries:
+    - title: ドライブ表示を制限します
+      url: "/sm-hardware/limit-the-drive-view.html"
+    - title: ドライブのロケーターライトを点灯します
+      url: "/sm-hardware/turn-on-drive-locator-light.html"
+    - title: ドライブのステータスと設定を表示します
+      url: "/sm-hardware/view-drive-status-and-settings.html"
+    - title: ドライブを論理的に交換します
+      url: "/sm-hardware/replace-drive-logically-hardware.html"
+    - title: ドライブを手動で再構築
+      url: "/sm-hardware/reconstruct-drive-manually.html"
+    - title: ドライブを初期化（フォーマット）します
+      url: "/sm-hardware/initialize-format-drive.html"
+    - title: ドライブを使用停止にする
+      url: "/sm-hardware/fail-drive.html"
+    - title: ホットスペアを割り当てます
+      url: "/sm-hardware/assign-hot-spares-hardware.html"
+    - title: ホットスペアの割り当てを解除します
+      url: "/sm-hardware/unassign-hot-spares.html"
+    - title: セキュリティ有効ドライブを消去します
+      url: "/sm-hardware/erase-drive.html"
+    - title: ロックされたNVMeドライブのロックを解除またはリセットします
+      url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+  - title: よくある質問です
+    entries:
+    - title: 予約済み容量とは何ですか？
+      url: "/sm-hardware/what-is-preservation-capacity.html"
+    - title: ドライブを論理的に交換するのはどのような場合ですか？
+      url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
+    - title: 再構築中のドライブのステータスはどこで確認できますか。
+      url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"

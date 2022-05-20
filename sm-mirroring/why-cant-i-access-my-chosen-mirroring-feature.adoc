@@ -1,0 +1,30 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html 
+sidebar: sidebar 
+keywords: mirror, configure, unified, manager 
+summary: ミラーリングはUnified Managerインターフェイスで設定されます。 
+---
+= 選択したミラーリング機能にアクセスできないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ミラーリングはUnified Managerインターフェイスで設定されます。
+
+2つのアレイ間のミラーリングを有効にして設定するには、次の点を確認します。
+
+* Web Services Proxyサービスが実行されている必要があります。（Unified Managerは、Web Services Proxyとともにホストシステムにインストールされます）。
+* Unified ManagerがHTTPS接続経由でローカルホストで実行されている必要があります。
+* ミラーリングに使用する2つのストレージアレイがUnified Managerで検出されている必要があります。
+* Unified Managerには、ストレージアレイの有効なSSL証明書が必要です。自己署名証明書を受け入れることも、Unified ManagerからCA署名証明書をインストールすることもできます。
+
+
+要件の詳細については、Unified Managerのオンラインヘルプを参照してください。
+
+[NOTE]
+====
+EF600ストレージアレイではミラーリングを使用できません。
+
+====

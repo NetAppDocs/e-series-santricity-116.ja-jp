@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html 
+sidebar: sidebar 
+keywords: following, media, types, support, hard disk, solid, state, drive 
+summary: サポートされているメディアタイプは、ハードディスクドライブ（HDD）とソリッドステートディスク（SSD）です。 
+---
+= ドライブでサポートされているメディアタイプを教えてください。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+サポートされているメディアタイプは、ハードディスクドライブ（HDD）とソリッドステートディスク（SSD）です。

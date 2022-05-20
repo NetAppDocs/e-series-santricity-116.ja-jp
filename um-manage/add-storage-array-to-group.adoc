@@ -1,0 +1,22 @@
+---
+permalink: um-manage/add-storage-array-to-group.html 
+sidebar: sidebar 
+keywords: add, storage, array, to, group, manage, 
+summary: ユーザが作成したグループにストレージアレイを追加することができます。 
+---
+= ストレージアレイをグループに追加します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ユーザが作成したグループにストレージアレイを追加することができます。
+
+.手順
+. メインビューで、* Manage *を選択し、ストレージ・アレイを追加するグループを選択します。
+. 選択メニュー：グループの管理[グループへのストレージアレイの追加]。
+. グループに追加するストレージアレイを選択します。
+. [ * 追加 ] をクリックします。 *
+

@@ -1,0 +1,18 @@
+---
+permalink: sm-support/critical-events.html 
+sidebar: sidebar 
+keywords: critical, events, indicate, problem, storage, array, resolve, immediately, might, prevent, loss, data, access 
+summary: 重大イベントは、ストレージアレイに問題があることを示します。重大イベントをすぐに解決すれば、データアクセスの中断を回避できる場合があります。 
+---
+= 重大イベント
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+重大イベントは、ストレージアレイに問題があることを示します。重大イベントをすぐに解決すれば、データアクセスの中断を回避できる場合があります。
+
+重大イベントが発生すると、イベントログに記録されます。すべての重大イベントは、SNMP管理コンソール、またはアラート通知を受信するように設定したEメール受信者に送信されます。イベントが発生した時点でシェルフIDが不明な場合、シェルフIDは「Shelf unknown」と記載されます。
+
+重大イベントを受け取った場合は、Recovery Guru手順 で重大イベントの詳細な概要 を参照してください。Recovery Guru「手順 」に情報を入力して、重大イベントを修正します。一部の重大イベントについては、修正時にテクニカルサポートへの連絡が必要になることがあります。

@@ -1,0 +1,33 @@
+---
+permalink: sm-settings/add-community-names-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: add up, community, snmp traps 
+summary: SNMPトラップのコミュニティ名は最大で256個追加できます。 
+---
+= SNMPトラップのコミュニティ名を追加します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPトラップのコミュニティ名は最大で256個追加できます。
+
+コミュニティ名を作成する必要があります。コミュニティ名は、ネットワークサーバのパスワードのような役割を果たす文字列で、通常はネットワーク管理者が作成します。印刷可能なASCII文字だけで構成されます。
+
+.手順
+. 「*」メニューを選択します。「Settings [Alerts]」を選択します。
+. [*SNMP*]タブを選択します。
++
+トラップの送信先とコミュニティ名が表に表示されます。
+
+. [コミュニティの設定]を選択します。
++
+コミュニティの設定ダイアログボックスが開きます。
+
+. [*別のコミュニティを追加*]を選択します。
+. 新しいコミュニティ名を入力し、* Save *をクリックします。
+
+
+新しいコミュニティ名は、[* Alerts]ページの[* SNMP]タブに表示されます。

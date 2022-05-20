@@ -1,0 +1,24 @@
+---
+permalink: sm-storage/why-cant-i-increase-my-preservation-capacity.html 
+sidebar: sidebar 
+keywords: create, volumes, available, usable, capacity, might, able, increase, preservation, capacity 
+summary: 使用可能なすべての容量でボリュームを作成した場合は、予約済み容量を増やせないことがあります。 
+---
+= 予約済み容量を増やせない場合、どのような理由が考えられますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用可能なすべての容量でボリュームを作成した場合は、予約済み容量を増やせないことがあります。
+
+予約済み容量は、ドライブ障害に備えてプール内に確保されている容量（ドライブ数）です。プールが作成されると、System Managerはプール内のドライブ数に応じて自動的にデフォルトの予約済み容量を確保します。使用可能なすべての容量でボリュームを作成している場合は、ドライブを追加するかボリュームを削除してプールに容量を追加しないと、予約済み容量を増やすことはできません。
+
+予約済み容量を変更するには、「* Storage」を選択し、次に「* Pools & Volume Groups」タイルを選択します。編集するプールを選択します。[設定の表示/編集]をクリックし、[*設定*]タブを選択します。
+
+[NOTE]
+====
+予約済み容量はプール内の複数のドライブに分散されますが、予約するときはドライブ数で指定します。
+
+====

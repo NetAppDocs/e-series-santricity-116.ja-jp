@@ -1,0 +1,61 @@
+---
+permalink: sm-support/dcbx-operational-state-statistics.html 
+sidebar: sidebar 
+keywords: operational, state, statistics 
+summary: DCBX動作状態統計 
+---
+= DCBX動作状態統計
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+Data Center Bridging Exchange（DCBX）Operational State Statisticsを選択すると、次の統計が表示されます。
+
+[cols="2*"]
+|===
+| 統計 | 定義（ Definition ） 
+
+
+ a| 
+iSCSIホストポート
+ a| 
+検出されたホストポートの場所を、「コントローラ番号、ポート番号」の形式で示します。
+
+
+
+ a| 
+優先度グループ
+ a| 
+優先度グループ（PG）アプリケーションの動作状態を示します。「有効」または「無効」のいずれかになります。
+
+
+
+ a| 
+優先度ベースのフロー制御
+ a| 
+優先度ベースフロー制御（PFC）機能の動作状態を示します。「有効」または「無効」のいずれかになります。
+
+
+
+ a| 
+iSCSI機能
+ a| 
+Internet Small Computer System Interface（iSCSI）アプリケーションの動作状態を示します。「有効」または「無効」のいずれかになります。
+
+
+
+ a| 
+FCoE帯域幅
+ a| 
+Fibre Channel over Ethernet（FCoE）帯域幅の状態を示します。「True」または「False」のいずれかになります。
+
+
+
+ a| 
+FCoE / FIPでマッピングの不一致はありません
+ a| 
+FCoEとFCoE Initialization Protocol（FIP）の間にマッピングの不一致がないかどうかを示します。値はTrueまたはFalseのいずれかです。
+
+|===
+これらに加え、状態キャプチャファイルで追加のDCBX動作状態統計を確認できます。

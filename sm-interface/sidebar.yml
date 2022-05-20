@@ -1,0 +1,60 @@
+---
+section: sm-interface
+title: メインインターフェイス
+entries:
+- title: ホームページ
+  url: "/sm-interface/home-page.html"
+- title: セットアップウィザード
+  entries:
+  - title: 概念
+    entries:
+    - title: セットアップウィザードの概要
+      url: "/sm-interface/setup-wizard-overview.html"
+    - title: セットアップウィザードに関する用語
+      url: "/sm-interface/setup-wizard-terminology.html"
+  - title: よくある質問です
+    entries:
+    - title: すべてのハードウェアコンポーネントが表示されない場合はどうすればよいですか？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
+    - title: すべてのホストが表示されない場合はどうすればよいですか？
+      url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
+    - title: アプリケーションを特定するとストレージアレイの管理にどのように役立ちますか？
+      url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
+    - title: ワークロードとは何ですか？
+      url: "/sm-interface/what-is-a-workload.html"
+    - title: AutoSupport の配信方法を設定するにはどうすればよいですか？
+      url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
+    - title: 推奨されるプール構成を承認するかどうかを判断するにはどうすればよいですか？
+      url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
+    - title: ホストが検出されませんでした。どうすればよいですか？
+      url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+- title: ストレージアレイの管理
+  entries:
+  - title: 概念
+    entries:
+    - title: ストレージアレイの概要
+      url: "/sm-interface/storage-array-overview.html"
+    - title: 管理者パスワードによる保護
+      url: "/sm-interface/administrator-password-protection.html"
+    - title: 問題の通知
+      url: "/sm-interface/problem-notification.html"
+    - title: 処理を実行中です
+      url: "/sm-interface/operations-in-progress.html"
+  - title: 方法
+    entries:
+    - title: 容量値のデフォルトの単位を設定します
+      url: "/sm-interface/set-default-units-for-capacity-values.html"
+    - title: パフォーマンスグラフのデフォルト期間を設定します
+      url: "/sm-interface/set-default-time-frame-for-performance-graphs.html"
+    - title: Recovery Guruを使用して問題からリカバリします
+      url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
+    - title: 実行中の処理を表示して対処します
+      url: "/sm-interface/view-and-act-on-operations-in-progress.html"
+  - title: よくある質問です
+    entries:
+    - title: 表示環境設定に関する詳しい情報は、どこで入手できますか。
+      url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+    - title: サポートされているブラウザ
+      url: "/sm-interface/what-are-the-supported-browsers.html"
+    - title: どのようなキーボードショートカットを使用できますか？
+      url: "/sm-interface/what-are-the-keyboard-shortcuts.html"

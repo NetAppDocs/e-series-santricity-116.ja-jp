@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/turn-on-storage-array-locator-lights.html 
+sidebar: sidebar 
+keywords: physical location, storage array, led 
+summary: キャビネット内のストレージアレイの物理的な場所を特定するために、ストレージアレイのロケーター（LED）ライトを点灯できます。 
+---
+= ストレージアレイのロケーターライトを点灯します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+キャビネット内のストレージアレイの物理的な場所を特定するために、ストレージアレイのロケーター（LED）ライトを点灯できます。
+
+.手順
+. 「* MENU（*メニュー）」：「Settings（設定）」[ System（システム）
+. [*General]で、[*Turn on Storage Array Locator Lights]をクリックします。
++
+ストレージアレイのロケーターライトを点灯*ダイアログボックスが開き、対応するストレージアレイのロケーターライトが点灯します。
+
+. ストレージアレイが物理的に配置されている場合は、ダイアログボックスに戻り、*電源オフ*を選択します。
+
+
+ロケーターライトが消灯してダイアログボックスが閉じます。

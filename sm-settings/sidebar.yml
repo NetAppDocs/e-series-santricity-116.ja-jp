@@ -1,0 +1,334 @@
+---
+section: sm-settings
+title: 設定
+entries:
+- title: アラート
+  entries:
+  - title: 概念
+    entries:
+    - title: アラートの仕組み
+      url: "/sm-settings/how-alerts-work.html"
+    - title: アラートの用語
+      url: "/sm-settings/alerts-terminology.html"
+  - title: 方法
+    entries:
+    - title: Eメールアラートの管理
+      entries:
+      - title: メールサーバとアラートの受信者を設定
+        url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
+      - title: アラート用のEメールアドレスの編集
+        url: "/sm-settings/edit-alert-email-addresses.html"
+      - title: アラート用のEメールアドレスを追加する
+        url: "/sm-settings/add-alert-email-addresses.html"
+      - title: アラート用のメールサーバまたはEメールアドレスを削除します
+        url: "/sm-settings/delete-alert-email-addresses.html"
+      - title: アラート用のメールサーバを編集します
+        url: "/sm-settings/edit-mail-server-for-alerts.html"
+    - title: SNMPアラートの管理
+      entries:
+      - title: SNMPアラートのコミュニティとデスティネーションを設定する
+        url: "/sm-settings/configure-snmp-alerts.html"
+      - title: SNMPトラップのコミュニティ名を編集します
+        url: "/sm-settings/edit-community-names-for-snmp-traps.html"
+      - title: SNMPトラップのコミュニティ名を追加します
+        url: "/sm-settings/add-community-names-for-snmp-traps.html"
+      - title: SNMPトラップのコミュニティ名を削除します
+        url: "/sm-settings/remove-community-name-for-snmp-traps.html"
+      - title: SNMP MIB変数を設定します
+        url: "/sm-settings/configure-snmp-mib-variables.html"
+      - title: SNMPアラートのトラップ送信先を追加します
+        url: "/sm-settings/add-trap-destinations-for-snmp-alerts.html"
+      - title: トラップ送信先を削除します
+        url: "/sm-settings/delete-trap-destinations.html"
+    - title: syslogアラートの管理
+      entries:
+      - title: アラート用のsyslogサーバを設定します
+        url: "/sm-settings/configure-syslog-server-for-alerts.html"
+      - title: アラート用のsyslogサーバを編集します
+        url: "/sm-settings/edit-syslog-servers-for-alerts.html"
+      - title: アラート用のsyslogサーバを追加します
+        url: "/sm-settings/add-syslog-servers-for-alerts.html"
+      - title: アラート用のsyslogサーバを削除します
+        url: "/sm-settings/delete-syslog-servers-for-alerts.html"
+  - title: よくある質問です
+    entries:
+    - title: アラートが無効になっている場合
+      url: "/sm-settings/what-if-alerts-are-disabled.html"
+    - title: SNMPまたはsyslogのアラートを設定するにはどうすればよいですか？
+      url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
+    - title: アレイとアラートでタイムスタンプが異なるのはなぜですか？
+      url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+- title: System：ストレージアレイの設定
+  entries:
+  - title: 概念
+    entries:
+    - title: キャッシュの設定とパフォーマンス
+      url: "/sm-settings/cache-settings-and-performance.html"
+    - title: 自動ロードバランシングの概要
+      url: "/sm-settings/automatic-load-balancing-overview.html"
+    - title: デフォルトのホストオペレーティングシステムタイプ
+      url: "/sm-settings/default-host-operating-system-type.html"
+  - title: 方法
+    entries:
+    - title: ストレージアレイ名を編集します
+      url: "/sm-settings/edit-storage-array-name.html"
+    - title: ストレージアレイのロケーターライトを点灯します
+      url: "/sm-settings/turn-on-storage-array-locator-lights.html"
+    - title: ストレージアレイのクロックを同期する
+      url: "/sm-settings/synchronize-storage-array-clocks.html"
+    - title: ストレージアレイの構成を保存します
+      url: "/sm-settings/save-storage-array-configuration.html"
+    - title: ストレージアレイの構成のクリア
+      url: "/sm-settings/clear-storage-array-configuration.html"
+    - title: ログインバナーを設定します
+      url: "/sm-settings/configure-login-banner.html"
+    - title: セッションタイムアウトの管理
+      url: "/sm-settings/manage-session-timeouts-sam.html"
+    - title: ストレージアレイのキャッシュ設定を変更します
+      url: "/sm-settings/change-cache-settings-for-storage-array.html"
+    - title: ホスト接続レポートの設定
+      url: "/sm-settings/set-host-connectivity-reporting.html"
+    - title: 自動ロードバランシングを設定する
+      url: "/sm-settings/set-automatic-load-balancing.html"
+    - title: デフォルトのホストタイプを変更
+      url: "/sm-settings/change-default-host-type.html"
+    - title: 従来の管理インターフェイスを有効または無効にします
+      url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
+  - title: よくある質問です
+    entries:
+    - title: コントローラキャッシュとは何ですか？
+      url: "/sm-settings/what-is-controller-cache.html"
+    - title: キャッシュフラッシュとは何ですか？
+      url: "/sm-settings/what-is-cache-flushing.html"
+    - title: キャッシュブロックサイズとは何ですか？
+      url: "/sm-settings/what-is-cache-block-size.html"
+    - title: ストレージアレイのクロックを同期する必要があるのはいつですか？
+      url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+    - title: ホスト接続レポートとは何ですか？
+      url: "/sm-settings/what-is-host-connectivity-reporting.html"
+- title: システム：iSCSI設定
+  entries:
+  - title: 概念
+    entries:
+    - title: iSCSIの用語
+      url: "/sm-settings/iscsi-terminology.html"
+  - title: 方法
+    entries:
+    - title: iSCSIポートを設定
+      url: "/sm-settings/configure-iscsi-ports-system.html"
+    - title: iSCSI認証を設定
+      url: "/sm-settings/configure-iscsi-authentication.html"
+    - title: iSCSI検出設定を有効にします
+      url: "/sm-settings/enable-iscsi-discovery-settings.html"
+    - title: iSCSI統計パッケージを表示します
+      url: "/sm-settings/view-iscsi-statistics-packages-system.html"
+    - title: iSCSI セッションを表示します
+      url: "/sm-settings/view-iscsi-sessions-system.html"
+    - title: iSCSIセッションを終了します
+      url: "/sm-settings/end-iscsi-session-system.html"
+    - title: iSER over InfiniBandポートを設定します
+      url: "/sm-settings/configure-iser-over-infiniband-ports-system.html"
+    - title: iSER over InfiniBandの統計を表示します
+      url: "/sm-settings/view-iser-over-infiniband-statistics-system.html"
+  - title: よくある質問です
+    entries:
+    - title: iSNSサーバを登録に使用するとどうなりますか？
+      url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
+    - title: iSCSIではどの登録方法が自動的にサポートされますか。
+      url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
+    - title: iSER over InfiniBand統計には何が表示されますか？
+      url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
+    - title: iSER over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
+- title: システム：NVMe設定
+  entries:
+  - title: 概念
+    entries:
+    - title: NVMe の概要
+      url: "/sm-settings/nvme-overview.html"
+    - title: NVMeの用語
+      url: "/sm-settings/nvme-terminology.html"
+  - title: 方法
+    entries:
+    - title: NVMe over InfiniBandポートを設定する
+      url: "/sm-settings/configure-nvme-over-infiniband-ports-system.html"
+    - title: NVMe over RoCEポートを設定します
+      url: "/sm-settings/configure-nvme-over-roce-ports-system.html"
+    - title: NVMe over Fabricsの統計を表示します
+      url: "/sm-settings/view-nvme-over-fabrics-statistics-system.html"
+  - title: よくある質問です
+    entries:
+    - title: NVMe over Fabrics統計には何が表示されますか？
+      url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
+    - title: NVMe over InfiniBandを設定または診断するためにほかに必要な作業は何ですか？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
+    - title: NVMe over RoCEを設定または診断するためにほかに必要な作業は何ですか？
+      url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
+    - title: 1つの物理ポートに2つのIPアドレスがあるのはなぜですか。
+      url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
+    - title: 1つの物理ポートに2セットのパラメータがあるのはなぜですか。
+      url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+- title: システム：アドオン機能
+  entries:
+  - title: 概念
+    entries:
+    - title: アドオン機能の仕組み
+      url: "/sm-settings/how-add-on-features-work.html"
+    - title: アドオン機能に関する用語
+      url: "/sm-settings/add-on-feature-terminology.html"
+  - title: 方法
+    entries:
+    - title: 機能キーファイルを取得します
+      url: "/sm-settings/obtain-a-feature-key-file.html"
+    - title: プレミアム機能を有効にします
+      url: "/sm-settings/enable-premium-feature.html"
+    - title: 機能パックを有効にします
+      url: "/sm-settings/enable-feature-pack.html"
+    - title: コマンドラインインターフェイス（CLI）のダウンロード
+      url: "/sm-settings/download-cli.html"
+- title: システム：セキュリティキー管理
+  entries:
+  - title: 概念
+    entries:
+    - title: ドライブセキュリティ機能の仕組み
+      url: "/sm-settings/how-the-drive-security-feature-works.html"
+    - title: セキュリティキー管理の仕組み
+      url: "/sm-settings/how-security-key-management-works.html"
+    - title: ドライブセキュリティの用語
+      url: "/sm-settings/drive-security-terminology.html"
+  - title: 方法
+    entries:
+    - title: 内部セキュリティキーを作成します
+      url: "/sm-settings/create-internal-security-key.html"
+    - title: 外部セキュリティキーを作成します
+      url: "/sm-settings/create-external-security-key.html"
+    - title: セキュリティキーを変更する
+      url: "/sm-settings/change-security-key.html"
+    - title: 外部キー管理から内部キー管理に切り替えます
+      url: "/sm-settings/switch-from-external-to-internal-key-management.html"
+    - title: キー管理サーバの設定を編集します
+      url: "/sm-settings/edit-key-management-server-settings.html"
+    - title: セキュリティキーをバックアップする
+      url: "/sm-settings/back-up-security-key.html"
+    - title: セキュリティキーを検証する
+      url: "/sm-settings/validate-security-key.html"
+    - title: セキュリティキーを使用してドライブのロックを解除します
+      url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
+  - title: よくある質問です
+    entries:
+    - title: セキュリティキーを作成するときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
+    - title: パスフレーズを定義する必要があるのはなぜですか？
+      url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
+    - title: セキュリティキー情報を記録することが重要なのはなぜですか。
+      url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
+    - title: セキュリティキーをバックアップするときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
+    - title: セキュアドライブのロックを解除するときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
+    - title: 読み取り/書き込みアクセスとは何ですか？
+      url: "/sm-settings/what-is-read-write-accessibility.html"
+    - title: セキュリティキーを検証するときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
+    - title: 内部セキュリティキー管理と外部セキュリティキー管理の違いは何ですか？
+      url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+- title: アクセス管理
+  entries:
+  - title: 概念
+    entries:
+    - title: アクセス管理の仕組み
+      url: "/sm-settings/how-access-management-works.html"
+    - title: アクセス管理の用語
+      url: "/sm-settings/access-management-terminology.html"
+    - title: マッピングされたロールの権限
+      url: "/sm-settings/permissions-for-mapped-roles.html"
+    - title: ローカルユーザロールを使用したアクセス管理
+      url: "/sm-settings/access-management-with-local-user-roles.html"
+    - title: ディレクトリサービスを使用したアクセス管理
+      url: "/sm-settings/access-management-with-directory-services.html"
+    - title: SAMLを使用したアクセス管理
+      url: "/sm-settings/access-management-with-saml.html"
+  - title: 方法
+    entries:
+    - title: ローカルユーザロールを表示します
+      url: "/sm-settings/view-local-user-roles.html"
+    - title: パスワードを変更します
+      url: "/sm-settings/change-passwords.html"
+    - title: ローカルユーザパスワードの設定を変更します
+      url: "/sm-settings/change-local-user-passwords-settings.html"
+    - title: ディレクトリサーバを追加します
+      url: "/sm-settings/add-directory-server.html"
+    - title: ディレクトリサーバ設定とロールマッピングを編集します
+      url: "/sm-settings/edit-directory-server-settings.html"
+    - title: ディレクトリサーバを削除します
+      url: "/sm-settings/remove-directory-server.html"
+    - title: SAMLを設定する
+      url: "/sm-settings/configure-saml.html"
+    - title: SAMLのロールマッピングを変更する
+      url: "/sm-settings/change-saml-role-mappings.html"
+    - title: SAMLサービスプロバイダファイルをエクスポートする
+      url: "/sm-settings/export-saml-service-provider-files.html"
+    - title: 監査ログアクティビティを表示します
+      url: "/sm-settings/view-audit-log-activity.html"
+    - title: 監査ログポリシーを定義する
+      url: "/sm-settings/define-log-policies.html"
+    - title: 監査ログからイベントを削除します
+      url: "/sm-settings/delete-events-from-the-audit-log.html"
+    - title: 監査ログ用のsyslogサーバを設定します
+      url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
+    - title: 監査ログレコード用のsyslogサーバ設定の編集
+      url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
+  - title: よくある質問です
+    entries:
+    - title: ログインできないのはなぜですか？
+      url: "/sm-settings/why-cant-i-log-in.html"
+    - title: ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
+    - title: ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
+    - title: この変更の影響を受ける外部管理ツールはどれですか。
+      url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
+    - title: SAMLを設定および有効にするときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
+    - title: 監査ログにはどのようなタイプのイベントが記録されますか？
+      url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
+    - title: syslogサーバを設定するときは、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
+    - title: syslogサーバが監査ログを受信しなくなりました。どうすればよいですか？
+      url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+- title: 証明書
+  entries:
+  - title: 概念
+    entries:
+    - title: 証明書の仕組み
+      url: "/sm-settings/how-certificates-work-sam.html"
+    - title: 証明書の用語
+      url: "/sm-settings/certificate-terminology.html"
+  - title: 方法
+    entries:
+    - title: コントローラのCA署名証明書を使用する
+      url: "/sm-settings/use-ca-signed-certificates-for-controllers.html"
+    - title: 管理証明書をリセットします
+      url: "/sm-settings/reset-management-certificates.html"
+    - title: インポートされた証明書の情報を表示
+      url: "/sm-settings/view-imported-certificates.html"
+    - title: クライアントとして機能するコントローラの証明書をインポートする
+      url: "/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html"
+    - title: 証明書失効チェックを有効にします
+      url: "/sm-settings/enable-certificate-revocation-checking.html"
+    - title: 信頼された証明書を削除する
+      url: "/sm-settings/delete-trusted-certificates.html"
+    - title: キー管理サーバでの認証にCA署名証明書を使用する
+      url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
+    - title: キー管理サーバ証明書をエクスポートする
+      url: "/sm-settings/export-key-management-certificates.html"
+  - title: よくある質問です
+    entries:
+    - title: Cannot Access Other Controllerダイアログボックスが表示されるのはなぜですか。
+      url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
+    - title: 外部キー管理を行うためにSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
+      url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
+    - title: 証明書失効チェックについて、どのような点に注意する必要がありますか？
+      url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
+    - title: 失効チェックが有効になるのはどのタイプのサーバですか？
+      url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"

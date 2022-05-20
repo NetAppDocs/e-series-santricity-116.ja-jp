@@ -1,0 +1,88 @@
+---
+permalink: sm-support/iscsi-target-statistics-and-local-initiator-statistics.html 
+sidebar: sidebar 
+keywords: target, statistics, local, initiator, statistics, select, target 
+summary: iSCSIターゲット統計およびローカルイニシエータ統計 
+---
+= iSCSIターゲット統計およびローカルイニシエータ統計
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+ターゲット（プロトコル）統計またはローカルイニシエータ（プロトコル）統計を選択すると、次の統計が表示されます。これらの統計はそれぞれ、統計の生データまたはベースライン統計として表示できます。
+
+[cols="2*"]
+|===
+| 統計 | 定義（ Definition ） 
+
+
+ a| 
+シリアル
+ a| 
+成功したiSCSIログイン数
+
+
+
+ a| 
+UL
+ a| 
+失敗したiSCSIログイン数です
+
+
+
+ a| 
+SA
+ a| 
+成功したiSCSI認証数（認証が有効な場合）
+
+
+
+ a| 
+UA
+ a| 
+失敗したiSCSI認証数（認証が有効な場合）
+
+
+
+ a| 
+PDU
+ a| 
+正しいiSCSI PDU処理数
+
+
+
+ a| 
+HDE
+ a| 
+ヘッダーダイジェストエラーのあるiSCSI PDUの数
+
+
+
+ a| 
+DDE
+ a| 
+データダイジェストエラーのあるiSCSI PDUの数
+
+
+
+ a| 
+PE
+ a| 
+iSCSIプロトコルエラーのあるPDUの数
+
+
+
+ a| 
+地殻
+ a| 
+予期しないiSCSIセッション終了数です
+
+
+
+ a| 
+UCT
+ a| 
+予期しないiSCSI接続終了数です
+
+|===

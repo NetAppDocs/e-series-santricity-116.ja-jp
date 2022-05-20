@@ -1,0 +1,14 @@
+---
+permalink: sm-support/view-the-different-types-of-iscsi-statistics.html 
+sidebar: sidebar 
+keywords: review, different, sets, statistics, raw, baseline, ethernet, target, local, initiator, protocol, operational, state 
+summary: イーサネットMAC統計、イーサネットTCP / IP統計、ターゲット（プロトコル）統計、ローカルイニシエータ（プロトコル）統計、DCBXの運用状態統計、LLDP TLV統計、DCBX TLV統計などのさまざまな統計（統計の生データまたはベースライン統計）を確認できます。 
+---
+= さまざまなタイプのiSCSI統計を表示します
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+イーサネットMAC統計、イーサネットTCP / IP統計、ターゲット（プロトコル）統計、ローカルイニシエータ（プロトコル）統計、DCBXの運用状態統計、LLDP TLV統計、DCBX TLV統計などのさまざまな統計（統計の生データまたはベースライン統計）を確認できます。

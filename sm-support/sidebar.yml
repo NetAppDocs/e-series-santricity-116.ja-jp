@@ -1,0 +1,149 @@
+---
+section: sm-support
+title: サポート
+entries:
+- title: サポートセンター
+  entries:
+  - title: 概念
+    entries:
+    - title: AutoSupport 機能の概要
+      url: "/sm-support/autosupport-feature-overview.html"
+    - title: AutoSupport 機能のワークフロー
+      url: "/sm-support/workflow-for-autosupport.html"
+  - title: 方法
+    entries:
+    - title: ストレージアレイの情報を表示します
+      entries:
+      - title: ストレージアレイプロファイルを表示します
+        url: "/sm-support/view-storage-array-profile.html"
+      - title: ソフトウェアとファームウェアのインベントリを表示します
+        url: "/sm-support/view-software-and-firmware-inventory.html"
+    - title: 診断データを収集します
+      entries:
+      - title: サポートデータを手動で収集する
+        url: "/sm-support/collect-support-data-manually.html"
+      - title: リカバリサポートファイルを取得します
+        url: "/sm-support/retrieve-recovery-support-files.html"
+      - title: トレースバッファを取得します
+        url: "/sm-support/retrieve-trace-buffers.html"
+      - title: ドライブデータを収集
+        url: "/sm-support/collect-drive-data.html"
+      - title: I/Oパスの統計を収集
+        url: "/sm-support/collect-i-o-path-statistics.html"
+      - title: ヘルスイメージを取得します
+        url: "/sm-support/retrieve-health-image.html"
+    - title: ストレージアレイのステータスに対してリカバリ操作を実行します
+      entries:
+      - title: 読み取り不能セクターのログを表示します
+        url: "/sm-support/view-unreadable-sectors-log.html"
+      - title: ドライブポートを再度有効にします
+        url: "/sm-support/re-enable-drive-ports.html"
+      - title: リカバリモードをクリアします
+        url: "/sm-support/clear-recovery-mode.html"
+    - title: iSCSI接続を管理します
+      entries:
+      - title: iSCSI統計パッケージを表示します
+        url: "/sm-support/view-iscsi-statistics-packages-support.html"
+      - title: さまざまなタイプのiSCSI統計を表示します
+        url: "/sm-support/view-the-different-types-of-iscsi-statistics.html"
+        entries:
+        - title: MAC送信およびMAC受信の統計情報
+          url: "/sm-support/mac-transmit-and-mac-receive-statistics.html"
+        - title: イーサネットTCP / IP統計
+          url: "/sm-support/ethernet-tcp-ip-statistics.html"
+        - title: iSCSIターゲット統計およびローカルイニシエータ統計
+          url: "/sm-support/iscsi-target-statistics-and-local-initiator-statistics.html"
+        - title: DCBX動作状態統計
+          url: "/sm-support/dcbx-operational-state-statistics.html"
+        - title: LLDP TLV統計
+          url: "/sm-support/lldp-tlv-statistics.html"
+        - title: DCBX TLV統計
+          url: "/sm-support/dcbx-tlv-statistics.html"
+      - title: iSCSI セッションを表示します
+        url: "/sm-support/view-iscsi-sessions-support.html"
+      - title: iSCSIセッションを終了します
+        url: "/sm-support/end-iscsi-session-support.html"
+      - title: iSER over InfiniBandの統計を表示します
+        url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
+    - title: NVMe接続を管理します
+      entries:
+      - title: NVMe over Fabricsの統計を表示します
+        url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
+    - title: AutoSupport を管理します
+      entries:
+      - title: AutoSupport 機能を有効または無効にします
+        url: "/sm-support/enable-or-disable-autosupport-features.html"
+      - title: AutoSupport メンテナンス期間を有効にします
+        url: "/sm-support/enable-autosupport-maintenance-window.html"
+      - title: AutoSupport メンテナンス期間を無効にします
+        url: "/sm-support/disable-autosupport-maintenance-window.html"
+      - title: AutoSupport の配信方法を設定する
+        url: "/sm-support/configure-autosupport-delivery-method.html"
+      - title: AutoSupport ディスパッチのスケジュールを設定します
+        url: "/sm-support/schedule-autosupport-dispatches.html"
+      - title: AutoSupport ディスパッチを送信します
+        url: "/sm-support/send-autosupport-dispatches.html"
+      - title: AutoSupport のステータスを確認します
+        url: "/sm-support/view-autosupport-status.html"
+      - title: AutoSupport ログを表示します
+        url: "/sm-support/view-autosupport-log.html"
+  - title: よくある質問です
+    entries:
+    - title: 収集するデータ
+      url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
+    - title: 読み取り不能セクターについて、どのようなデータが表示されますか？
+      url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
+    - title: ヘルスイメージとは何ですか？
+      url: "/sm-support/what-is-a-health-image.html"
+    - title: iSCSIを設定または診断するためにほかに必要な作業は何ですか？
+      url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
+    - title: AutoSupport の機能について教えてください。
+      url: "/sm-support/what-do-the-autosupport-features-do.html"
+    - title: AutoSupport 機能ではどのような種類のデータが収集されますか。
+      url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
+    - title: AutoSupport 機能の配信方法を設定するにはどうすればよいですか？
+      url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
+- title: イベントログ
+  entries:
+  - title: 概念
+    entries:
+    - title: 重大イベント
+      url: "/sm-support/critical-events.html"
+    - title: イベントログ
+      url: "/sm-support/event-log.html"
+  - title: 方法
+    entries:
+    - title: イベントログを使用してイベントを表示します
+      url: "/sm-support/view-events-using-the-event-log.html"
+- title: アップグレードセンター
+  entries:
+  - title: 概念
+    entries:
+    - title: コントローラのソフトウェアとファームウェアのアップグレード
+      url: "/sm-support/controller-software-and-firmware-upgrades.html"
+    - title: コントローラソフトウェアとファームウェアのアップグレードのワークフロー
+      url: "/sm-support/workflow-for-controller-software-and-firmware-upgrade.html"
+    - title: ドライブファームウェアのアップグレード
+      url: "/sm-support/drive-firmware-upgrades.html"
+  - title: 方法
+    entries:
+    - title: ソフトウェアとファームウェアをアップグレードします
+      url: "/sm-support/upgrade-controller-software-and-firmware.html"
+    - title: コントローラソフトウェアとファームウェアをアクティブ化します
+      url: "/sm-support/activate-controller-software-and-firmware.html"
+    - title: ドライブファームウェアをアップグレードします
+      url: "/sm-support/upgrade-drive-firmware.html"
+    - title: ソフトウェアとファームウェアのアップグレードエラーの可能性を確認します
+      url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+  - title: よくある質問です
+    entries:
+    - title: SANtricity OSソフトウェアをアップグレードするときは、どのような点に注意する必要がありますか？
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
+    - title: IOMの自動同期を一時停止するときは、どのような点に注意する必要がありますか？
+      url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
+    - title: ファームウェアアップグレードに時間がかかる場合、どのような理由が考えられますか？
+      url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
+    - title: ドライブファームウェアをアップグレードするときは、どのような点に注意する必要がありますか？
+      url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
+    - title: 実行するアップグレードのタイプを選択するにはどうすればよいですか？
+      url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"

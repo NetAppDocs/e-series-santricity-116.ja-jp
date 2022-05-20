@@ -1,0 +1,110 @@
+---
+permalink: sm-settings/iscsi-terminology.html 
+sidebar: sidebar 
+keywords: iscsi, storage array, terms apply 
+summary: ストレージアレイに関連するiSCSIの用語を次に示します。 
+---
+= iSCSIの用語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージアレイに関連するiSCSIの用語を次に示します。
+
+[cols="1a,3a"]
+|===
+| 期間 | 説明 
+
+
+ a| 
+CHAP
+ a| 
+チャレンジハンドシェイク認証プロトコル（CHAP）方式では、初回のリンク確立時にターゲットとイニシエータのIDを検証します。認証は、CHAP_secret__という共有セキュリティキーに基づいて行われます。
+
+
+
+ a| 
+コントローラ
+ a| 
+コントローラは、ボード、ファームウェア、ソフトウェアで構成されます。ドライブを制御し、 System Manager の機能を実装します。
+
+
+
+ a| 
+DHCP
+ a| 
+動的ホスト構成プロトコル（DHCP）は、インターネットプロトコル（IP）ネットワークでIPアドレスなどのネットワーク設定パラメータを動的に配布するために使用されるプロトコルです。
+
+
+
+ a| 
+IB
+ a| 
+InfiniBand （ IB ）は、ハイパフォーマンスのサーバとストレージシステムの間のデータ転送用の通信標準です。
+
+
+
+ a| 
+ICMP PING応答
+ a| 
+Internet Control Message Protocol（ICMP）は、ネットワークに接続されたコンピュータのオペレーティングシステムでメッセージの送信に使用されるプロトコルです。ICMPメッセージを送信することで、ホストに到達できるかどうかや、そのホストとのパケットの送受信にどれくらいの時間がかかるかが確認されます。
+
+
+
+ a| 
+IQN
+ a| 
+iSCSI Qualified Name（IQN）は、iSCSIイニシエータまたはiSCSIターゲットの一意の名前です。
+
+
+
+ a| 
+iSER
+ a| 
+iSCSI Extensions for RDMA（iSER）は、InfiniBandやイーサネットなどのRDMAトランスポートを使用する処理用にiSCSIプロトコルを拡張したプロトコルです。
+
+
+
+ a| 
+iSNS
+ a| 
+Internet Storage Name Service（iSNS）は、TCP / IPネットワーク上のiSCSIデバイスとFibre Channelデバイスの自動検出、管理、構成が可能なプロトコルです。
+
+
+
+ a| 
+MAC アドレス
+ a| 
+メディアアクセス制御（MAC）アドレスはイーサネットで使用される識別子で、同じ物理トランスポートネットワークインターフェイス上の2つのポートを接続する別々の論理チャネルを区別します。
+
+
+
+ a| 
+管理クライアント
+ a| 
+管理クライアントは、System Managerにアクセスするためのブラウザがインストールされたコンピュータです。
+
+
+
+ a| 
+MTU
+ a| 
+Maximum Transmission Unit（MTU；最大転送単位）は、ネットワークで送信可能なパケットまたはフレームの最大サイズです。
+
+
+
+ a| 
+RDMA
+ a| 
+Remote Direct Memory Access（RDMA）は、ネットワークコンピュータ同士が、それぞれのオペレーティングシステムを介さずにメインメモリ内でデータを交換できるテクノロジです。
+
+
+
+ a| 
+名前のない検出セッション
+ a| 
+名前のない検出セッションのオプションが有効な場合、iSCSIイニシエータは、コントローラの情報を取得するためにターゲットIQNを指定する必要はありません。
+
+|===

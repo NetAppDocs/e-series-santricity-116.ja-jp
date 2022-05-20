@@ -1,0 +1,66 @@
+---
+section: um-certificates
+title: 証明書と認証
+entries:
+- title: 証明書管理
+  entries:
+  - title: 概念
+    entries:
+    - title: 証明書の仕組み
+      url: "/um-certificates/how-certificates-work-unified.html"
+    - title: 証明書の用語
+      url: "/um-certificates/certificate-terminology-unified.html"
+  - title: 方法
+    entries:
+    - title: CA署名証明書を使用する
+      url: "/um-certificates/use-ca-signed-certificate-um.html"
+    - title: 管理証明書をリセットします
+      url: "/um-certificates/reset-management-certificates-unified.html"
+    - title: アレイの証明書をインポートします
+      url: "/um-certificates/import-array-certificates-unified.html"
+    - title: 証明書を表示します
+      url: "/um-certificates/view-certificates-unified.html"
+    - title: 証明書をエクスポートします
+      url: "/um-certificates/export-certificates-unified.html"
+    - title: 信頼された証明書を削除する
+      url: "/um-certificates/delete-trusted-certificates-unified.html"
+    - title: 信頼されていない証明書を
+      url: "/um-certificates/resolve-untrusted-certificates-certificate-page.html"
+- title: アクセス管理
+  entries:
+  - title: 概念
+    entries:
+    - title: アクセス管理の仕組み
+      url: "/um-certificates/how-access-management-works-unified.html"
+    - title: アクセス管理の用語
+      url: "/um-certificates/access-management-terminology-unified.html"
+    - title: マッピングされたロールの権限
+      url: "/um-certificates/permissions-for-mapped-roles-unified.html"
+    - title: ローカルユーザロールを使用したアクセス管理
+      url: "/um-certificates/access-management-with-local-user-roles-unified.html"
+    - title: ディレクトリサービスを使用したアクセス管理
+      url: "/um-certificates/access-management-with-directory-services-unified.html"
+  - title: 方法
+    entries:
+    - title: ローカルユーザロールを表示します
+      url: "/um-certificates/view-local-user-roles-unified.html"
+    - title: パスワードを変更します
+      url: "/um-certificates/change-passwords-unified.html"
+    - title: ローカルユーザパスワードの設定を変更します
+      url: "/um-certificates/change-local-user-passwords-settings-unified.html"
+    - title: ディレクトリサーバを追加します
+      url: "/um-certificates/add-directory-server-unified.html"
+    - title: ディレクトリサーバ設定とロールマッピングを編集します
+      url: "/um-certificates/edit-directory-server-settings-unified.html"
+    - title: ディレクトリサーバを削除します
+      url: "/um-certificates/remove-directory-server-unified.html"
+  - title: よくある質問です
+    entries:
+    - title: ログインできないのはなぜですか？
+      url: "/um-certificates/why-cant-i-log-in-unified.html"
+    - title: ディレクトリサーバを追加するときは、どのような点に注意する必要がありますか？
+      url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
+    - title: ストレージアレイのロールをマッピングするときは、どのような点に注意する必要がありますか？
+      url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
+    - title: ローカルユーザとは何ですか？
+      url: "/um-certificates/what-are-the-local-users.html"

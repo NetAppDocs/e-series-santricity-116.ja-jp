@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/remove-community-name-for-snmp-traps.html 
+sidebar: sidebar 
+keywords: remove, community, snmp traps 
+summary: SNMPトラップのコミュニティ名を削除できます。 
+---
+= SNMPトラップのコミュニティ名を削除します
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SNMPトラップのコミュニティ名を削除できます。
+
+.手順
+. 「*」メニューを選択します。「Settings [Alerts]」を選択します。
+. [*SNMP*]タブを選択します。
++
+トラップの送信先とコミュニティ名が[Alerts]ページに表示されます。
+
+. [コミュニティの設定]を選択します。
++
+コミュニティの設定*（Configure Communities *）ダイアログボックスが開きます。
+
+. 削除するコミュニティ名を選択し、右端の*削除*（X）アイコンをクリックします。
++
+このコミュニティ名にトラップ送信先が関連付けられている場合、*コミュニティの削除の確認*ダイアログボックスに、影響を受けるトラップ送信先アドレスが表示されます。
+
+. 操作を確定し、*削除*をクリックします。
+
+
+コミュニティ名とそれに関連付けられているトラップ送信先は、* Alerts *ページから削除されます。

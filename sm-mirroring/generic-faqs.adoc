@@ -1,0 +1,13 @@
+---
+permalink: sm-mirroring/generic-faqs.html 
+sidebar: sidebar 
+keywords: faqs 
+summary: よくある質問です 
+---
+= よくある質問です
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+*よくあるお問い合わせ*
