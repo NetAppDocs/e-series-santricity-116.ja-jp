@@ -4,6 +4,8 @@ title: メインインターフェイス
 entries:
 - title: ホームページ
   url: "/sm-interface/home-page.html"
+- title: 新機能
+  url: "/whats-new.html"
 - title: セットアップウィザード
   entries:
   - title: 概念

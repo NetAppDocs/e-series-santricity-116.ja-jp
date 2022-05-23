@@ -4,6 +4,8 @@ indexpage:
   tiles:
   - title: はじめに
     links:
+    - title: 新機能
+      url: "/whats-new.html"
     - title: System Managerインターフェイス
       url: "/sm-interface/home-page.html"
     - title: Unified Managerインターフェイス

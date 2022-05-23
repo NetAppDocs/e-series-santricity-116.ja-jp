@@ -7462,4 +7462,34 @@
   <block id="4a8aaebc73b69b1dce072d72f2645856" category="sidebar">リモートストレージアレイのボリュームが一部表示されないのはなぜですか？</block>
   <block id="87f96b0027c75822fb47500bccdbe043" category="sidebar">証明書と認証</block>
   <block id="8e98fe16abd52051c3a673ef6c4b861a" category="sidebar">証明書管理</block>
+  <block id="7bf44c1a455e947396fedd5ddf411974" category="summary">SANtricity OS の新機能</block>
+  <block id="3e51dae0ccee21d31dadce7f2987765d" category="doc">SANtricity OS 11.6の新機能</block>
+  <block id="b27e80bbb04022f0cdf22e2f64a03a2a" category="paragraph">次の表は、SANtricity OS 11.6の新機能を示しています。</block>
+  <block id="cf4445a7eef921679098b2f4131f5a2f" category="section-title">バージョン 11.62 の新機能</block>
+  <block id="824a3a83a007a97494ec5981cebf67a5" category="cell">新機能</block>
+  <block id="f4740fe043692686bff5987f7d3557f0" category="paragraph">ダウンロード可能な CLI</block>
+  <block id="f85e6008eadf9b6f5123fc4a952e338f" category="paragraph">E5700、EF570、E2800、EF280の各アレイ用のSystem Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードしてメニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは、 HTTPS 版の CLI （「 Secure CLI 」とも呼ばれます）です。この機能はこれまで EF600 アレイで導入されていました。</block>
+  <block id="20a8e026f8801c6dc7f85921b7ed5396" category="paragraph">ミラーリングの設定が System Manager と Unified Manager で変更されました</block>
+  <block id="1b63d49ee8164010b2299ddbd66ab218" category="paragraph">同期ミラーペアと非同期ミラーペアを設定するタスクは、 System Manager から Unified Manager に移行されました。ミラーペアを管理するその他のタスクはすべて System Manager に残ります。</block>
+  <block id="577d6487a578c561bd8b1ba8f3e35f00" category="paragraph">新しい 200Gb 対応の HIC （ EF600 アレイのみ）</block>
+  <block id="c7fe0af5c6a7815338a4041bedd06b05" category="paragraph">このリリースでは、 EF600 ストレージアレイ用に新しい 200Gb 対応の HIC が追加されました。サポートされるインターフェイスは、 NVMe/IB 、 NVMe/RoCE 、および iSER/IB です。また、 100Gb SRP/IB もサポートされます。</block>
+  <block id="92b625f47297ed61b6ea90f28eb3cee0" category="paragraph">100Gb HIC での追加オプション（ EF600 アレイのみ）</block>
+  <block id="ce239842aa6ba86c5686e62d495a1edc" category="paragraph">既存の 100Gb HIC では、 EF600 ストレージアレイで iSER/IB インターフェイスと SRP/IB インターフェイスがサポートされるようになりました（ EF570 アレイと E5700 アレイではすでにサポートされています）。</block>
+  <block id="61fc6d3b31f75e49fd741c2a3414985e" category="paragraph">System Manager でメールサーバを削除します</block>
+  <block id="c3c597b171820c3b63cc89aadca3ee72" category="paragraph">System Manager ではメールサーバの設定は可能でしたが、設定したサーバを簡単に削除できるメカニズムがありませんでした。このリリースでは、 System Manager でのメールサーバの設定をアラートから削除できるようになりました。削除したメールサーバに関連付けられている E メールアドレスにはアラートが送信されなくなります。</block>
+  <block id="429a7eaffcf0b0928c3609e8db574428" category="paragraph">System Manager でのプールおよびボリュームグループ（ SSD ドライブのみ）の最適化容量の調整</block>
+  <block id="15be529df08588751b09e31d63467867" category="paragraph">SSD ドライブの場合、 System Manager のプール設定とボリュームグループ設定に新しい最適化容量のスライダが追加されました。このスライダを使用すると、使用可能容量と SSD の書き込みパフォーマンスおよびドライブ寿命のバランスを調整できます。</block>
+  <block id="3c0d8b68f58e4a92b53c03796ffc89a7" category="paragraph">System Manager の新しいホストタイプ</block>
+  <block id="b0cc84448c9b87b4db11d788c3487f8c" category="paragraph">System Manager で新しいホストを作成する際に、表示されたホストオプションが 3 つのカテゴリに分類され、一般的ではなく、指示があった場合にのみ使用するようになりました。</block>
+  <block id="e7d1ffe6a547a9967f9704754e4dc141" category="section-title">バージョン 11.61 の新機能</block>
+  <block id="3f0e7718843e6908b139903b37e8448f" category="paragraph">EF600 で Fibre Channel がサポートされます</block>
+  <block id="4f8980f6ce1a0e7d3381354fcb329a38" category="paragraph">このリリースでは、 EF600 ストレージシステムで Fibre Channel ホストがサポートされるようになりました。当初は NVMe over Fabrics ホストプロトコルでのみリリースされていた EF600 でサポートされる初めての SCSI ホストです。EF600 の単一のコントローラは System Manager で表示および管理できます。複数の EF600 ストレージシステムは Unified Manager で表示および管理できます。</block>
+  <block id="d482de938ace6344fb6e3bd4f48298f4" category="paragraph">admin ユーザのパスワードの要件</block>
+  <block id="b7c346882ba8056d9aae672c54837658" category="paragraph">Unified Manager への初回ログイン時に、管理者ユーザのパスワードの入力を求められるようになりました。デフォルトの「 admin 」パスワードは廃止されました。</block>
+  <block id="3cadd28677a808dfd3dc83028ce0e618" category="section-title">バージョン 11.60 の新機能</block>
+  <block id="6a720c2d111f2910969f4af776987b6c" category="paragraph">新しいストレージシステムモデル– EF600</block>
+  <block id="827a0646aa7dbec20924786ee02858fd" category="paragraph">このリリースでは、 EF600 オールフラッシュストレージシステムが新たに提供されています。EF600 には、 NVMe-oF ホストインターフェイスと NVMe SSD が搭載されています。</block>
+  <block id="dd653c0b6bc0cf0f23e208b0da4baee1" category="paragraph">EF600 は、スループットの大幅な向上とレイテンシの低減を実現します。サポートされるホストインターフェイスは NVMe over IB 、 NVMe over RoCE 、および NVMe over FC で、 System Manager で設定できます。複数の EF600 ストレージシステムは Unified Manager で表示および管理できます。</block>
+  <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードして、メニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは CLI の HTTPS ベースバージョンです。従来の SANtricity Storage Manager パッケージにも引き続き CLI が含まれています。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
 </blocks>

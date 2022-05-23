@@ -1,0 +1,115 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: whats new, new features, 
+summary: SANtricity OS の新機能 
+---
+= SANtricity OS 11.6の新機能
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+次の表は、SANtricity OS 11.6の新機能を示しています。
+
+
+
+== バージョン 11.62 の新機能
+
+[cols="35h,~"]
+|===
+| 新機能 | 説明 
+
+
+ a| 
+ダウンロード可能な CLI
+ a| 
+E5700、EF570、E2800、EF280の各アレイ用のSystem Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードしてメニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは、 HTTPS 版の CLI （「 Secure CLI 」とも呼ばれます）です。この機能はこれまで EF600 アレイで導入されていました。
+
+
+
+ a| 
+ミラーリングの設定が System Manager と Unified Manager で変更されました
+ a| 
+同期ミラーペアと非同期ミラーペアを設定するタスクは、 System Manager から Unified Manager に移行されました。ミラーペアを管理するその他のタスクはすべて System Manager に残ります。
+
+
+
+ a| 
+新しい 200Gb 対応の HIC （ EF600 アレイのみ）
+ a| 
+このリリースでは、 EF600 ストレージアレイ用に新しい 200Gb 対応の HIC が追加されました。サポートされるインターフェイスは、 NVMe/IB 、 NVMe/RoCE 、および iSER/IB です。また、 100Gb SRP/IB もサポートされます。
+
+
+
+ a| 
+100Gb HIC での追加オプション（ EF600 アレイのみ）
+ a| 
+既存の 100Gb HIC では、 EF600 ストレージアレイで iSER/IB インターフェイスと SRP/IB インターフェイスがサポートされるようになりました（ EF570 アレイと E5700 アレイではすでにサポートされています）。
+
+
+
+ a| 
+System Manager でメールサーバを削除します
+ a| 
+System Manager ではメールサーバの設定は可能でしたが、設定したサーバを簡単に削除できるメカニズムがありませんでした。このリリースでは、 System Manager でのメールサーバの設定をアラートから削除できるようになりました。削除したメールサーバに関連付けられている E メールアドレスにはアラートが送信されなくなります。
+
+
+
+ a| 
+System Manager でのプールおよびボリュームグループ（ SSD ドライブのみ）の最適化容量の調整
+ a| 
+SSD ドライブの場合、 System Manager のプール設定とボリュームグループ設定に新しい最適化容量のスライダが追加されました。このスライダを使用すると、使用可能容量と SSD の書き込みパフォーマンスおよびドライブ寿命のバランスを調整できます。
+
+
+
+ a| 
+System Manager の新しいホストタイプ
+ a| 
+System Manager で新しいホストを作成する際に、表示されたホストオプションが 3 つのカテゴリに分類され、一般的ではなく、指示があった場合にのみ使用するようになりました。
+
+|===
+
+
+== バージョン 11.61 の新機能
+
+[cols="35h,~"]
+|===
+| 新機能 | 説明 
+
+
+ a| 
+EF600 で Fibre Channel がサポートされます
+ a| 
+このリリースでは、 EF600 ストレージシステムで Fibre Channel ホストがサポートされるようになりました。当初は NVMe over Fabrics ホストプロトコルでのみリリースされていた EF600 でサポートされる初めての SCSI ホストです。EF600 の単一のコントローラは System Manager で表示および管理できます。複数の EF600 ストレージシステムは Unified Manager で表示および管理できます。
+
+
+
+ a| 
+admin ユーザのパスワードの要件
+ a| 
+Unified Manager への初回ログイン時に、管理者ユーザのパスワードの入力を求められるようになりました。デフォルトの「 admin 」パスワードは廃止されました。
+
+|===
+
+
+== バージョン 11.60 の新機能
+
+[cols="35h,~"]
+|===
+| 新機能 | 説明 
+
+
+ a| 
+新しいストレージシステムモデル– EF600
+ a| 
+このリリースでは、 EF600 オールフラッシュストレージシステムが新たに提供されています。EF600 には、 NVMe-oF ホストインターフェイスと NVMe SSD が搭載されています。
+
+EF600 は、スループットの大幅な向上とレイテンシの低減を実現します。サポートされるホストインターフェイスは NVMe over IB 、 NVMe over RoCE 、および NVMe over FC で、 System Manager で設定できます。複数の EF600 ストレージシステムは Unified Manager で表示および管理できます。
+
+
+
+| ダウンロード可能な CLI | System Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードして、メニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは CLI の HTTPS ベースバージョンです。従来の SANtricity Storage Manager パッケージにも引き続き CLI が含まれています。 
+|===
