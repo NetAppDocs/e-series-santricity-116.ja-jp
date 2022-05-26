@@ -7492,4 +7492,5 @@
   <block id="dd653c0b6bc0cf0f23e208b0da4baee1" category="paragraph">EF600 は、スループットの大幅な向上とレイテンシの低減を実現します。サポートされるホストインターフェイスは NVMe over IB 、 NVMe over RoCE 、および NVMe over FC で、 System Manager で設定できます。複数の EF600 ストレージシステムは Unified Manager で表示および管理できます。</block>
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードして、メニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは CLI の HTTPS ベースバージョンです。従来の SANtricity Storage Manager パッケージにも引き続き CLI が含まれています。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
+  <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity ソフトウェア</block>
 </blocks>
