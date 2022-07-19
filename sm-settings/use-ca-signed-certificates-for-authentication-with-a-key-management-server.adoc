@@ -50,7 +50,7 @@ summary: キー管理サーバとストレージアレイコントローラの�
 CSRファイルがローカルシステムに保存されます。
 
 . キー管理サーバで信頼されているCAから署名済みのクライアント証明書を要求します。
-. クライアント証明書がある場合は、に進みます <<Step 2: Import certificates for the key management server>>。
+. クライアント証明書がある場合は、に進みます  2: Import certificates for the key management server。
 
 
 
@@ -61,7 +61,7 @@ CSRファイルがローカルシステムに保存されます。
 
 .作業を開始する前に
 * Security Adminの権限を含むユーザプロファイルでログインする必要があります。そうしないと、証明書の機能は表示されません。
-* 署名済みのクライアント証明書ファイルがある（を参照） <<Step 1: Complete and submit CSR for authentication with a key management server>>）をクリックし、System Managerにアクセスするホストにファイルをコピーしておきます。クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。
+* 署名済みのクライアント証明書ファイルがある（を参照）  1: Complete and submit CSR for authentication with a key management server）をクリックし、System Managerにアクセスするホストにファイルをコピーしておきます。クライアント証明書は、キー管理サーバが自身のKey Management Interoperability Protocol（KMIP）要求を信頼できるよう、ストレージアレイのコントローラを検証します。
 * キー管理サーバからサーバ証明書ファイルを取得し、そのファイルをSystem Managerにアクセスするホストにコピーする必要があります。キー管理サーバ証明書は、ストレージアレイがサーバのIPアドレスを信頼できるよう、キー管理サーバを検証します。
 +
 [NOTE]

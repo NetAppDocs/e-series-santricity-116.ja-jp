@@ -45,7 +45,7 @@ summary: 複数のアレイの検出では、管理サーバが配置されて�
 管理ドメインに追加する各アレイについて、SANtricity Unified Managerでクレデンシャルのチェックが実行されます。そのアレイに関連付けられている自己署名証明書や信頼されていない証明書の解決が必要になる場合があります。
 
 . 「 * 次へ * 」をクリックして、ウィザードの次の手順に進みます。
-. に進みます <<Step 2: Resolve self-signed certificates during discovery>>。
+. に進みます  2: Resolve self-signed certificates during discovery。
 
 
 
@@ -66,7 +66,7 @@ summary: 複数のアレイの検出では、管理サーバが配置されて�
 
 
 . 「 * 次へ * 」をクリックして、ウィザードの次の手順に進みます。
-. に進みます <<Step 3: Resolve untrusted certificates during discovery>>。
+. に進みます  3: Resolve untrusted certificates during discovery。
 
 
 
@@ -110,7 +110,7 @@ summary: 複数のアレイの検出では、管理サーバが配置されて�
 
 ====
 . 「 * 次へ * 」をクリックして、ウィザードの次の手順に進みます。
-. に進みます <<Step 4: Provide passwords>>。
+. に進みます  4: Provide passwords。
 
 
 

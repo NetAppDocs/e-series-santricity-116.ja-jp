@@ -80,7 +80,7 @@ CSR要求を最初に作成するときは、[この手順をスキップ]リン
 
 . ダウンロードしたCSRファイルの場所を確認します。フォルダの場所はブラウザによって異なります。
 . CSRファイルをCAに送信し、PEM形式の署名済み証明書を要求します。
-. CAから証明書が返されるまで待ってから、に進みます <<Step 2: Import signed certificates for controllers>>。
+. CAから証明書が返されるまで待ってから、に進みます  2: Import signed certificates for controllers。
 
 
 
