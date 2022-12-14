@@ -14,6 +14,7 @@ summary: System Managerでは、容量値をギビバイト（GiB）またはテ
 [role="lead"]
 System Managerでは、容量値をギビバイト（GiB）またはテビバイト（TiB）で表示できます。
 
+.このタスクについて
 +++++
 
 [cols="2a,3a"]

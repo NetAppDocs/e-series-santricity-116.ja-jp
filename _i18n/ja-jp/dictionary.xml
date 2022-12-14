@@ -7493,4 +7493,5 @@
   <block id="3975daee7f1db295a72280ffe0739e54" category="cell">System Managerに、SANtricity コマンドラインインターフェイス（CLI）をダウンロードして、メニューのリンクからインストールできるようになりました。設定[システム]、[アドオン]の順にクリックします。これは CLI の HTTPS ベースバージョンです。従来の SANtricity Storage Manager パッケージにも引き続き CLI が含まれています。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新機能</block>
   <block id="c62c395ffcd8aa3e5d38fe7155d2f510" category="sidebar">SANtricity ソフトウェア</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
 </blocks>

@@ -24,6 +24,7 @@ SnapshotボリュームまたはSnapshot整合性グループのSnapshotボリ�
 . Snapshotボリュームの設定を適宜表示または編集します。
 +
 .フィールドの詳細
+[%collapsible]
 ====
 [cols="1a,3a"]
 |===
